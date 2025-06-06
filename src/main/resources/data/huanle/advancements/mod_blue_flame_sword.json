@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "huanle:blue_flame_sword"
+    },
+    "title": {
+      "translate": "advancements.huanle.blue_flame_sword.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.blue_flame_sword.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "huanle:root",
+  "criteria": {
+    "has_blue_flame_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:blue_flame_sword"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_blue_flame_sword"]]
+}

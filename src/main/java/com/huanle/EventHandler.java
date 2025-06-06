@@ -1,0 +1,39 @@
+package com.huanle;
+
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.enchantment.EnchantmentHelper;
+import net.minecraftforge.event.entity.living.LivingHurtEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+
+@Mod.EventBusSubscriber(modid = HuanleMod.MOD_ID)
+public class EventHandler {
+
+    @SubscribeEvent
+    public static void onLivingHurt(LivingHurtEvent event) {
+
+        if (event.getSource().getEntity() instanceof LivingEntity) {
+            LivingEntity attacker = (LivingEntity) event.getSource().getEntity();
+            
+
+            ItemStack mainHandWeapon = attacker.getMainHandItem();
+            ItemStack offHandWeapon = attacker.getOffhandItem();
+            
+
+            int mainHandLevel = EnchantmentHelper.getItemEnchantmentLevel(ModEnchantments.LIGHTNING_STRIKE.get(), mainHandWeapon);
+
+            int offHandLevel = EnchantmentHelper.getItemEnchantmentLevel(ModEnchantments.LIGHTNING_STRIKE.get(), offHandWeapon);
+
+            if (event.getEntity() instanceof LivingEntity) {
+                LivingEntity target = (LivingEntity) event.getEntity();
+                if (mainHandLevel > 0) {
+                    LightningEnchantment.onHitEntity(target, attacker, mainHandWeapon, mainHandLevel);
+                }
+                if (offHandLevel > 0) {
+                    LightningEnchantment.onHitEntity(target, attacker, offHandWeapon, offHandLevel);
+                }
+            }
+        }
+    }
+}

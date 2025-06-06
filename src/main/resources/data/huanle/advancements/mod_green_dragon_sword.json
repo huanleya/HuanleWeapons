@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "huanle:green_dragon_sword"
+    },
+    "title": {
+      "translate": "advancements.huanle.green_dragon_sword.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.green_dragon_sword.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "huanle:root",
+  "criteria": {
+    "has_green_dragon_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:green_dragon_sword"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_green_dragon_sword"]]
+}

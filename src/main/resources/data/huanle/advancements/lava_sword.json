@@ -1,0 +1,31 @@
+{
+  "parent": "huanle:lava_ingot",
+  "display": {
+    "icon": {
+      "item": "huanle:lava_sword"
+    },
+    "title": {
+      "translate": "advancements.huanle.lava_sword.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.lava_sword.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lava_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:lava_sword"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["lava_sword"]]
+}

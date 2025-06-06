@@ -1,0 +1,35 @@
+{
+    "parent": "huanle:root",
+    "display": {
+        "icon": {
+            "item": "huanle:lava_ingot"
+        },
+        "title": {
+            "translate": "advancements.huanle.lava_ingot.title"
+        },
+        "description": {
+            "translate": "advancements.huanle.lava_ingot.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_lava_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["huanle:lava_ingot"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "get_lava_ingot"
+        ]
+    ]
+}

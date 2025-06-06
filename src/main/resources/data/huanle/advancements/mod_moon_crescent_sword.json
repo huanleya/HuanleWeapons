@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "huanle:moon_crescent_sword"
+    },
+    "title": {
+      "translate": "advancements.huanle.moon_crescent_sword.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.moon_crescent_sword.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "huanle:root",
+  "criteria": {
+    "has_moon_crescent_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:moon_crescent_sword"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_moon_crescent_sword"]]
+}

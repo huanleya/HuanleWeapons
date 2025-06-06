@@ -1,0 +1,35 @@
+{
+    "parent": "huanle:lava_ingot",
+    "display": {
+        "icon": {
+            "item": "huanle:fire_god_ingot"
+        },
+        "title": {
+            "translate": "advancements.huanle.fire_god_ingot.title"
+        },
+        "description": {
+            "translate": "advancements.huanle.fire_god_ingot.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_fire_god_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["huanle:fire_god_ingot"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "get_fire_god_ingot"
+        ]
+    ]
+}

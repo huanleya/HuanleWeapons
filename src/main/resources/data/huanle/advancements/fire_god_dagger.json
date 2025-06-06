@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "huanle:fire_god_dagger"
+    },
+    "title": {
+      "translate": "advancements.huanle.fire_god_dagger.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.fire_god_dagger.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "huanle:fire_god_ingot",
+  "criteria": {
+    "fire_god_dagger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:fire_god_dagger"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fire_god_dagger"
+    ]
+  ]
+}

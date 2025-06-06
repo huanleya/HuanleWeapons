@@ -1,0 +1,20 @@
+{
+  "item.huanle.huanle_sword": "终焉剑",
+  "item.huanle.sun_god_sword": "太阳神剑",
+  "item.huanle.sun_god_sword.desc": "右键释放范围技能",
+  "item.huanle.sun_god_sword.desc2": "造成5点伤害，范围为8x8格,并燃烧实体",
+  "item.huanle.throwing_axe": "投掷斧",
+  "item.huanle.throwing_axe.desc": "右键可以丢出斧头",
+  "enchantment.huanle.lightning_strike": "附雷",
+  "enchantment.huanle.lightning_strike.desc": "攻击实体时会落下闪电，等级越高落下的闪电越多，可用于剑、三叉戟和斧头",
+  "entity.huanle.throwing_axe": "投掷斧",
+  "itemGroup.huanle_tab": "神器",
+  "item.huanle.ender_sword": "末影之剑",
+  "item.huanle.ender_sword.desc": "右键可以丢出末影珍珠",
+  "advancements.huanle.ender_sword.title": "末影剑士",
+  "advancements.huanle.ender_sword.description": "获得一把末影之剑",
+  "advancements.huanle.sun_god_sword.title": "太阳神剑士",
+  "advancements.huanle.sun_god_sword.description": "获得一把太阳神剑",
+  "item.huanle.flame_bow": "烈焰弓",
+  "item.huanle.flame_arrow": "烈焰箭"
+}

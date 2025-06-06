@@ -1,0 +1,145 @@
+{
+  "item.huanle.huanle_sword": "终焉剑",
+
+  "item.huanle.green_dragon_sword": "青龙剑",
+  "item.huanle.green_dragon_sword.desc": "命中敌人时使其中毒5秒",
+  "item.huanle.green_dragon_sword.desc2": "20%几率获得短暂加速效果",
+  "item.huanle.green_dragon_sword.desc3": "攻击命中后10%恢复2点生命值",
+
+  "item.huanle.sun_god_sword": "太阳神剑",
+  "item.huanle.sun_god_sword.desc": "右键释放范围技能",
+  "item.huanle.sun_god_sword.desc2": "造成5点伤害，范围为8x8格,并燃烧实体",
+
+  "item.huanle.throwing_axe": "投掷斧",
+  "item.huanle.throwing_axe.desc": "右键可以丢出斧头",
+  "item.huanle.throwing_axe.charge": "长按右键蓄力，蓄力时间越长投掷距离越远",
+
+  "enchantment.huanle.lightning_strike": "附雷",
+  "enchantment.huanle.lightning_strike.desc": "攻击实体时会落下闪电，等级越高落下的闪电越多，可用于剑、三叉戟和斧头",
+  
+  "enchantment.huanle.quick_draw": "快速拉弓",
+  "enchantment.huanle.quick_draw.desc": "每级减少拉弓时间0.3秒",
+
+
+  "entity.huanle.throwing_axe": "投掷斧",
+
+  "itemGroup.huanle_tab": "huanle的武器",
+  "itemGroup.huanle_materials_tab": "huanle的武器:材料",
+
+  "item.huanle.ender_sword": "末影之剑",
+  "item.huanle.ender_sword.desc": "右键可以丢出末影珍珠",
+  "item.huanle.ender_sword.desc2": "20%概率造成额外伤害,并对目标施加虚弱buff",
+
+  "advancements.huanle.ender_sword.title": "末影剑士",
+  "advancements.huanle.ender_sword.description": "获得一把末影之剑",
+  "advancements.huanle.sun_god_sword.title": "太阳神剑士",
+  "advancements.huanle.sun_god_sword.description": "获得一把太阳神剑",
+
+  "item.huanle.flame_bow": "烈焰弓",
+  "item.huanle.flame_bow.desc": "只能使用烈焰箭射击",
+  "item.huanle.flame_arrow": "烈焰箭",
+  
+  "advancements.huanle.flame_bow.title": "烈焰射手",
+  "advancements.huanle.flame_bow.description": "获得一把烈焰弓",
+  "advancements.huanle.huanle_sword.title": "终焉剑士",
+  "advancements.huanle.huanle_sword.description": "获得一把终焉剑",
+
+  "advancements.huanle.root.title": "魔力水晶的发现者",
+  "advancements.huanle.root.description": "挖到一个魔力水晶",
+
+  "item.huanle.magic_crystal": "魔力水晶",
+  "block.huanle.magic_crystal_ore": "魔力水晶矿石",
+
+  "item.huanle.lava_ingot": "熔岩锭",
+
+  "item.huanle.lava_sword": "熔岩剑",
+  "item.huanle.lava_sword.desc": "攻击实体时，使实体着火",
+
+  "advancements.huanle.lava_sword.title": "熔岩剑士",
+  "advancements.huanle.lava_sword.description": "获得一把熔岩剑",
+
+  "block.huanle.deepslate_magic_crystal_ore": "深层魔力水晶矿石",
+  "block.huanle.magic_crystal_block": "魔力水晶块",
+
+  "item.huanle.moonlight_sword": "月光剑",
+  "item.huanle.moonlight_sword.desc": "右键发射蓝色弯弧，冷却2秒",
+  "item.huanle.moonlight_sword.desc2": "弯弧命中实体会造成10秒的冻伤",
+
+  "item.huanle.moon_crescent_sword": "月牙剑",
+  "item.huanle.moon_crescent_sword.desc": "手持获得抗性提升效果",
+  "item.huanle.moon_crescent_sword.desc2": "攻击目标使目标获得缓慢效果",
+
+  "effect.huanle.freezing": "冻伤",
+  "effect.huanle.freezing.desc": "每级降低30%移动速度，并持续造成0.5点魔法伤害",
+  
+  "item.huanle.blue_flame_sword": "蓝焰剑",
+  "item.huanle.blue_flame_sword.desc": "手持获得防火效果",
+  "item.huanle.blue_flame_sword.desc2": "攻击命中时增加目标燃烧时间5秒",
+  "item.huanle.blue_flame_sword.desc3": "对着火的目标造成4倍伤害",
+
+  "item.huanle.ender_hammer": "末影锤",
+  "item.huanle.ender_hammer.desc": "可以挖掘3x3区域的方块",
+  "item.huanle.ender_hammer.desc2": "20%几率使敌人眩晕",
+
+  "advancements.huanle.green_dragon_sword.title": "青龙显世",
+  "advancements.huanle.green_dragon_sword.description": "获得一把青龙剑",
+
+  "advancements.huanle.moon_crescent_sword.title": "新月之刃",
+  "advancements.huanle.moon_crescent_sword.description": "获得一把月牙剑",
+
+  "advancements.huanle.moonlight_sword.title": "皎月之辉",
+  "advancements.huanle.moonlight_sword.description": "获得一把月光剑",
+
+  "advancements.huanle.blue_flame_sword.title": "幽蓝之火",
+  "advancements.huanle.blue_flame_sword.description": "获得一把蓝焰剑",
+
+  "advancements.huanle.ender_hammer.title": "末影粉碎者",
+  "advancements.huanle.ender_hammer.description": "获得一把末影锤",
+
+  "item.huanle.forest_blade": "森林之刃",
+  "item.huanle.forest_blade.desc": "在水中手持获得生命恢复效果",
+  "item.huanle.forest_blade.desc2": "30%几率给敌人施加凋零II效果5秒",
+  "item.huanle.forest_blade.desc3": "3%几率攻击时回满生命值",
+  "item.huanle.forest_blade.desc4": "蹲下右键消耗10点生命换取力量II增益10秒",
+
+  "advancements.huanle.forest_blade.title": "森林的守护者",
+  "advancements.huanle.forest_blade.description": "获得一把森林之刃",
+
+  "item.huanle.death_scythe": "死亡之镰",
+  "item.huanle.death_scythe.desc": "攻击敌人吸取敌人4点生命值",
+  "item.huanle.death_scythe.desc2": "5%几率触发失血效果(扣除当前血量30%并持续扣血)",
+  "item.huanle.death_scythe.desc3": "蹲下右键消耗10点生命值使敌人获得8秒凋零II效果",
+
+  "effect.huanle.bleeding": "失血",
+  "effect.huanle.bleeding.desc": "持续造成魔法伤害",
+
+  "advancements.huanle.death_scythe.title": "死亡收割者",
+  "advancements.huanle.death_scythe.description": "获得一把死亡之镰",
+
+  "item.huanle.looting_dagger": "抢夺匕首",
+  "item.huanle.looting_dagger.desc": "自带抢夺V附魔，提高战利品掉落率",
+
+  "advancements.huanle.looting_dagger.title": "抢夺者",
+  "advancements.huanle.looting_dagger.description": "获得一把抢夺匕首",
+
+  "item.huanle.fire_god_ingot": "炎神锭",
+  
+  "item.huanle.fire_god_dagger": "炎神匕首",
+  "item.huanle.fire_god_dagger.desc": "手持获得防火buff",
+  "item.huanle.fire_god_dagger.desc2": "攻击实体时，使实体着火10秒",
+
+
+  "advancements.huanle.fire_god_dagger.title": "炎神使者",
+  "advancements.huanle.fire_god_dagger.description": "获得一把炎神匕首",
+
+  "item.huanle.life_staff": "生命法杖",
+  "item.huanle.life_staff.desc": "右键恢复6点生命值",
+  "item.huanle.life_staff.desc2": "冷却时间60秒",
+  "item.huanle.life_staff.desc3": "每次使用消耗5点耐久度",
+
+  "advancements.huanle.lava_ingot.title": "熔融金属",
+  "advancements.huanle.lava_ingot.description": "获得一个熔岩锭",
+
+  "advancements.huanle.fire_god_ingot.title": "炎神精华",
+  "advancements.huanle.fire_god_ingot.description": "合成一个炎神锭"
+}

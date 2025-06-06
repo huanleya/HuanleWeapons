@@ -1,0 +1,147 @@
+{
+  "item.huanle.huanle_sword": "Sword of Huanle",
+
+  "item.huanle.green_dragon_sword": "Green Dragon Sword",
+  "item.huanle.green_dragon_sword.desc": "Poison an enemy for 5 seconds when it hits",
+  "item.huanle.green_dragon_sword.desc2": "20% chance to gain a Brief Boost",
+  "item.huanle.green_dragon_sword.desc3": "Regenerate 10% of the attack after hitting 2 health",
+
+  "item.huanle.sun_god_sword": "Sun God Sword",
+  "item.huanle.sun_god_sword.desc": "Right-click to unleash the power of the sun",
+  "item.huanle.sun_god_sword.desc2": "Deal 5 damage, range is 8x8 blocks, and burn entities",
+
+  "item.huanle.throwing_axe": "Throwing Axe",
+  "item.huanle.throwing_axe.desc": "Right-click to drop the axe",
+  "item.huanle.throwing_axe.charge": "Press and hold the right button to charge, the longer the charge time, the farther the throw distance",
+
+  "enchantment.huanle.lightning_strike": "Lightning Strike",
+  "enchantment.huanle.lightning_strike.desc": "Strikes lightning when attacking entities, higher levels summon more lightning bolts. Can be applied to swords, tridents and axes",
+  
+  "enchantment.huanle.quick_draw": "Quick Draw",
+  "enchantment.huanle.quick_draw.desc": "Reduces bow drawing time by 0.3 seconds per level",
+
+
+  "entity.huanle.throwing_axe": "Throwing Axe",
+
+  "itemGroup.huanle_tab": "Huanle's weapons",
+  "itemGroup.huanle_materials_tab": "Huanle's weapons:Materials",
+
+  "item.huanle.ender_sword": "Ender Sword",
+  "item.huanle.ender_sword.desc": "Right-click to drop ender pearls",
+  "item.huanle.ender_sword.desc2": "20% chance to deal extra damage and apply the Weaken buff to the target",
+
+  "advancements.huanle.ender_sword.title": "Ender Sword",
+  "advancements.huanle.ender_sword.description": "Get an Ender Sword",
+  "advancements.huanle.sun_god_sword.title": "Sun God Sword",
+  "advancements.huanle.sun_god_sword.description": "Get a Sun God Sword",
+
+  "item.huanle.flame_bow": "Flame Bow",
+  "item.huanle.flame_bow.desc": "Can only be shot with flaming arrows",
+  "item.huanle.flame_arrow": "Flame Arrow",
+  
+  "advancements.huanle.flame_bow.title": "Flame Archer",
+  "advancements.huanle.flame_bow.description": "Get a Flame Bow",
+  "advancements.huanle.huanle_sword.title": "Sword of Finality",
+  "advancements.huanle.huanle_sword.description": "Get a Sword of Huanle",
+
+  "advancements.huanle.root.title": "The discoverer of the Magic Crystal",
+  "advancements.huanle.root.description": "Dig up a mana crystal",
+
+  "item.huanle.magic_crystal": "Magic Crystal",
+  "block.huanle.magic_crystal_ore": "Magic Crystal Ore",
+
+  "item.huanle.lava_ingot": "Lava Ingot",
+
+  "item.huanle.lava_sword": "Lava Sword",
+  "item.huanle.lava_sword.desc": "Sets entities on fire when attacked",
+
+  "advancements.huanle.lava_sword.title": "Lava Swordsman",
+  "advancements.huanle.lava_sword.description": "Obtain a Lava Sword",
+
+  "block.huanle.deepslate_magic_crystal_ore": "Deepslate Magic Crystal Ore",
+  "block.huanle.magic_crystal_block": "Magic Crystal Block",
+
+  "item.huanle.moonlight_sword": "Moonlight Sword",
+  "item.huanle.moonlight_sword.desc": "Right-click to fire a blue arc and cool it down for 2 seconds",
+  "item.huanle.moonlight_sword.desc2": "Arc hits inflict frostbite for 10 seconds",
+
+  "item.huanle.moon_crescent_sword": "Crescent Sword",
+  "item.huanle.moon_crescent_sword.desc": "Handheld to gain a resistance-up effect",
+  "item.huanle.moon_crescent_sword.desc2": "Attacking the target causes the target to gain the slow effect",
+
+  "effect.huanle.freezing": "frostbite",
+  "effect.huanle.freezing.desc": "Slows movement speed by 30% per level and deals 0.5 magic damage over time",
+
+  "item.huanle.blue_flame_sword": "Blue Flame Sword",
+  "item.huanle.blue_flame_sword.desc": "Hand-held for fire protection",
+  "item.huanle.blue_flame_sword.desc2": "Increases the target's burn duration by 5 seconds on hit",
+  "item.huanle.blue_flame_sword.desc3": "Deals 4x damage to targets on fire",
+
+  "advancements.huanle.green_dragon_sword.title": "Green Dragon Appearance",
+  "advancements.huanle.green_dragon_sword.description": "Get a Green Dragon Sword",
+
+  "advancements.huanle.moon_crescent_sword.title": "Crescent Blade",
+  "advancements.huanle.moon_crescent_sword.description": "Get a Moon Crescent Sword",
+
+  "advancements.huanle.moonlight_sword.title": "Bright Moonlight",
+  "advancements.huanle.moonlight_sword.description": "Get a Moonlight Sword",
+
+  "advancements.huanle.blue_flame_sword.title": "Azure Flames",
+  "advancements.huanle.blue_flame_sword.description": "Get a Blue Flame Sword",
+
+  "item.huanle.ender_hammer": "Ender Hammer",
+  "item.huanle.ender_hammer.desc": "A hammer infused with the power of the End",
+  "item.huanle.ender_hammer.desc2": "Teleports enemies on hit",
+  "item.huanle.ender_hammer.desc3": "Deals extra damage to Endermen",
+
+  "advancements.huanle.ender_hammer.title": "Ender Crusher",
+  "advancements.huanle.ender_hammer.description": "Get an Ender Hammer",
+
+  "item.huanle.forest_blade": "Forest Blade",
+  "item.huanle.forest_blade.desc": "Gain Regeneration I when held underwater",
+  "item.huanle.forest_blade.desc2": "30% chance to apply Wither II for 5 seconds",
+  "item.huanle.forest_blade.desc3": "3% chance to restore full health when attacking",
+  "item.huanle.forest_blade.desc4": "Crouching and right-clicking consumes 10 health in exchange for the Strength II buff for 10 seconds",
+
+  "advancements.huanle.forest_blade.title": "Guardian of the Forest",
+  "advancements.huanle.forest_blade.description": "Obtain a Forest Blade",
+
+  "item.huanle.death_scythe": "Death Scythe",
+  "item.huanle.death_scythe.desc": "Absorbs 4 health points from enemies on hit",
+  "item.huanle.death_scythe.desc2": "5% chance to trigger Bleeding effect (reduces current health by 30% and causes continuous damage)",
+  "item.huanle.death_scythe.desc3": "Sneak + Right-click to consume 10 health points and apply Wither II to enemies for 8 seconds",
+
+  "effect.huanle.bleeding": "Bleeding",
+  "effect.huanle.bleeding.desc": "Causes continuous magic damage",
+
+  "advancements.huanle.death_scythe.title": "Death Reaper",
+  "advancements.huanle.death_scythe.description": "Obtain a Death Scythe",
+
+  "item.huanle.looting_dagger": "Looting Dagger",
+  "item.huanle.looting_dagger.desc": "Comes with Looting V enchantment, increasing drop rates",
+
+  "advancements.huanle.looting_dagger.title": "Looter",
+  "advancements.huanle.looting_dagger.description": "Obtain a Looting Dagger",
+
+  "item.huanle.fire_god_ingot": "Fire God Ingot",
+  
+  "item.huanle.fire_god_dagger": "Fire God Dagger",
+  "item.huanle.fire_god_dagger.desc": "Grants fire resistance when held",
+  "item.huanle.fire_god_dagger.desc2": "Sets entities on fire for 10 seconds when hit",
+
+  "entity.huanle.friendly_blaze": "Friendly Blaze",
+
+  "advancements.huanle.fire_god_dagger.title": "Fire God's Messenger",
+  "advancements.huanle.fire_god_dagger.description": "Obtain a Fire God Dagger",
+
+  "item.huanle.life_staff": "Life Staff",
+  "item.huanle.life_staff.desc": "Right-click to restore 6 health",
+  "item.huanle.life_staff.desc2": "Cooldown: 60 seconds",
+  "item.huanle.life_staff.desc3": "Consumes 5 durability per use",
+
+  "advancements.huanle.lava_ingot.title": "Molten Metal",
+  "advancements.huanle.lava_ingot.description": "Obtain a Lava Ingot",
+
+  "advancements.huanle.fire_god_ingot.title": "Fire God's Essence",
+  "advancements.huanle.fire_god_ingot.description": "Craft a Fire God Ingot"
+}
