@@ -1,5 +1,5 @@
 # Huanle's weapon
-![logo2](https://github.com/user-attachments/assets/6ac48202-090b-4e56-b664-e59350e929d1)  
+![image](logo2.png)
 This is the first MOD I created, which adds some weapons, enchantments, and items to Minecraft.
 
 Mod Introduction
