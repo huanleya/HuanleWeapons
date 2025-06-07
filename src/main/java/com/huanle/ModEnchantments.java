@@ -19,6 +19,9 @@ public class ModEnchantments {
     public static final RegistryObject<Enchantment> QUICK_DRAW = ENCHANTMENTS.register(
             "quick_draw", QuickDrawEnchantment::new);
 
+    public static final RegistryObject<Enchantment> LAVA_WALKER = ENCHANTMENTS.register(
+            "lava_walker", LavaWalkerEnchantment::new);
+
     public static void register(IEventBus eventBus) {
         ENCHANTMENTS.register(eventBus);
     }

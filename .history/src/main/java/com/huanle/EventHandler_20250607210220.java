@@ -77,10 +77,11 @@ public class EventHandler {
         ItemStack boots = player.getItemBySlot(EquipmentSlot.FEET);
         int lavaWalkerLevel = EnchantmentHelper.getItemEnchantmentLevel(ModEnchantments.LAVA_WALKER.get(), boots);
         if (lavaWalkerLevel > 0) {
+            // 检查玩家脚下是否是岩浆块
             BlockPos below = player.blockPosition().below();
             if (player.level().getBlockState(below).is(Blocks.MAGMA_BLOCK)) {
-                // 兜底：移除着火状态
-                player.clearFire();
+                // 让玩家无敌，防止岩浆块伤害
+                player.invulnerableTime = 1;
             }
         }
     }

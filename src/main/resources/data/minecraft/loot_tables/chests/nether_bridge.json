@@ -107,6 +107,17 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"huanle:lava_walker\",lvl:1s}]}"
+            }
+          ]
         }
       ]
     }
