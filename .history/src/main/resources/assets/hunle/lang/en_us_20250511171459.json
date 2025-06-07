@@ -1,8 +1,0 @@
-{
-  "item.huanle.huanle_sword": "Sword of Huanle",
-  "item.huanle.throwing_axe": "Throwing Axe",
-  "enchantment.huanle.lightning_strike": "Lightning Strike",
-  "enchantment.huanle.lightning_strike.desc": "Strikes lightning when attacking entities, higher levels summon more lightning bolts. Can be applied to swords, tridents and axes",
-  "entity.huanle.throwing_axe": "Throwing Axe",
-  "itemGroup.hunle_tab": "Huanle's Items"
-}
