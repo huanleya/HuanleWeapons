@@ -1,4 +1,5 @@
 {
+  "enchantment.huanle.lava_walker": "Lava Walker",
   "item.huanle.huanle_sword": "Sword of Huanle",
 
   "item.huanle.green_dragon_sword": "Green Dragon Sword",
@@ -8,7 +9,7 @@
 
   "item.huanle.sun_god_sword": "Sun God Sword",
   "item.huanle.sun_god_sword.desc": "Right-click to unleash the power of the sun",
-  "item.huanle.sun_god_sword.desc2": "Deal 5 damage, range is 8x8 blocks, and burn entities",
+  "item.huanle.sun_god_sword.desc2": "Deal 5 damage, range is 16x16 blocks, and burn entities",
 
   "item.huanle.throwing_axe": "Throwing Axe",
   "item.huanle.throwing_axe.desc": "Right-click to drop the axe",
@@ -25,6 +26,7 @@
 
   "itemGroup.huanle_tab": "Huanle's weapons",
   "itemGroup.huanle_materials_tab": "Huanle's weapons:Materials",
+  "itemGroup.huanle_blocks_tab": "Huanle's weapons:Blocks",
 
   "item.huanle.ender_sword": "Ender Sword",
   "item.huanle.ender_sword.desc": "Right-click to drop ender pearls",
@@ -143,5 +145,72 @@
   "advancements.huanle.lava_ingot.description": "Obtain a Lava Ingot",
 
   "advancements.huanle.fire_god_ingot.title": "Fire God's Essence",
-  "advancements.huanle.fire_god_ingot.description": "Craft a Fire God Ingot"
+  "advancements.huanle.fire_god_ingot.description": "Craft a Fire God Ingot",
+
+  "item.huanle.dragon_hunter_sword": "Dragon Hunting Sword",
+  "item.huanle.dragon_hunter_sword.desc": "Right-click to teleport 8 blocks away (cooldown for 5 seconds).",
+  "item.huanle.dragon_hunter_sword.desc2": "Right-click crouch to switch form (cooldown 60 seconds)",
+  "item.huanle.dragon_hunter_sword.desc3": "Gain Strength II and Speed II for 30 seconds when switching forms",
+
+  "item.huanle.awakened_dragon_hunter_sword": "Awaken the Dragon Hunter Sword",
+  "item.huanle.awakened_dragon_hunter_sword.desc": "The blade comes with an ender particle effect",
+  "item.huanle.awakened_dragon_hunter_sword.desc2": "20% chance to deal extra damage and inflict Weakness",
+  "item.huanle.awakened_dragon_hunter_sword.desc3": "Right-click to apply glow to entities within a 20x20 radius (cooldown 60 seconds).",
+  "item.huanle.awakened_dragon_hunter_sword.desc4": "Attacks glowing entities deal double damage",
+
+  "advancements.huanle.dragon_hunter_sword.title": "Dragon Hunter Swordsman",
+  "advancements.huanle.dragon_hunter_sword.description": "Obtain a Dragon Hunting Sword",
+
+  "item.huanle.dragon_hunter_sword.transform_cooldown": "Transform cooldown...",
+  "item.huanle.dragon_hunter_sword.transformed_awakened": "You transformed into awakened form!",
+  "item.huanle.dragon_hunter_sword.transformed_normal": "You transformed back to normal form.",
+  "item.huanle.dragon_hunter_sword.teleport_cooldown": "Teleport skill on cooldown...",
+  "item.huanle.dragon_hunter_sword.teleport_success": "You successfully teleported!",
+  "item.huanle.dragon_hunter_sword.teleport_unsafe": "Teleport location is unsafe!",
+  "item.huanle.dragon_hunter_sword.glow_cooldown": "Glow skill on cooldown...",
+  "item.huanle.dragon_hunter_sword.glow_success": "You applied the glowing effect!",
+  "item.huanle.dragon_hunter_sword.teleport_cooldown_time": "Teleport skill on cooldown, %s seconds remaining...",
+  "item.huanle.dragon_hunter_sword.glow_cooldown_time": "Glow skill on cooldown, %s seconds remaining...",
+  "item.huanle.dragon_hunter_sword.transform_cooldown_time": "Transform cooldown, %s seconds remaining...",
+
+  "item.huanle.flame_god_smithing_template": "Flame God Smithing Template",
+  "item.huanle.flame_god_axe": "Flame God Axe",
+  "item.huanle.flame_god_axe.desc": "A powerful axe forged with the essence of flame",
+  "item.huanle.flame_god_pickaxe": "Flame God Pickaxe",
+  "item.huanle.flame_god_pickaxe.desc": "A powerful pickaxe forged with the essence of flame",
+  "item.huanle.flame_god_hoe": "Flame God Hoe",
+  "item.huanle.flame_god_hoe.desc": "A powerful hoe forged with the essence of flame",
+  "item.huanle.flame_god_shovel": "Flame God Shovel",
+  "item.huanle.flame_god_shovel.desc": "A powerful shovel forged with the essence of flame",
+
+  "item.huanle.forest_smithing_template": "Forest Smithing Template",
+  "item.huanle.forest_ingot": "Forest ingots",
+  "item.huanle.forest_axe": "Forest axe",
+  "item.huanle.forest_axe.desc": "Poisons enemies when attacked",
+  "item.huanle.forest_pickaxe": "Forest Pickaxe",
+  "item.huanle.forest_pickaxe.desc": "Poisons enemies when attacked",
+  "item.huanle.forest_hoe": "Forest hoes",
+  "item.huanle.forest_hoe.desc": "Poisons enemies when attacked",
+  "item.huanle.forest_shovel": "Forest shovels",
+  "item.huanle.forest_shovel.desc": "Poisons enemies when attacked",
+
+  "item.huanle.magic_crystal_apple": "Magic Crystal Apple",
+  "item.huanle.magic_crystal_apple.desc": "§6Consuming this apple gives you multiple buffs",
+
+  "item.huanle.fear_tear": "Tear of Fear",
+  "effect.huanle.fear": "Fear",
+  "effect.huanle.fear.desc": "Prevents all forms of health regeneration, including from food, regeneration effects, and instant health. At level II or higher, also prevents food saturation recovery",
+
+  "item.minecraft.tipped_arrow.effect.fear_potion": "Arrow of Fear",
+  "item.minecraft.tipped_arrow.effect.long_fear_potion": "Arrow of Fear",
+  "item.minecraft.tipped_arrow.effect.strong_fear_potion": "Arrow of Fear",
+  "item.minecraft.potion.effect.fear_potion": "Fear Potion",
+  "item.minecraft.potion.effect.long_fear_potion": "Fear Potion",
+  "item.minecraft.potion.effect.strong_fear_potion": "Fear Potion",
+  "item.minecraft.splash_potion.effect.fear_potion": "Splash Fear Potion",
+  "item.minecraft.splash_potion.effect.long_fear_potion": "Splash Fear Potion",
+  "item.minecraft.splash_potion.effect.strong_fear_potion": "Splash Fear Potion",
+  "item.minecraft.lingering_potion.effect.fear_potion": "Lingering Fear Potion",
+  "item.minecraft.lingering_potion.effect.long_fear_potion": "Lingering Fear Potion",
+  "item.minecraft.lingering_potion.effect.strong_fear_potion": "Lingering Fear Potion"
 }

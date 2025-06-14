@@ -5,6 +5,8 @@ bin
 .metadata
 .classpath
 .project
+/history
+/vscode
 
 # idea
 out

@@ -1,0 +1,21 @@
+{
+  "_comment": "恐惧药水箭现在通过原版酿造系统制作。将滞留型恐惧药水与箭在酿造台中组合即可获得恐惧药水箭。",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:arrow"
+    },
+    "B": {
+      "item": "huanle:fear_tear"
+    }
+  },
+  "result": {
+    "item": "huanle:fear_arrow",
+    "count": 4
+  }
+}

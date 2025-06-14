@@ -1,6 +1,7 @@
 package com.huanle;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Tiers;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -84,4 +85,57 @@ public class ModItems {
     public static final RegistryObject<Item> LIFE_STAFF = ITEMS.register("life_staff",
             () -> new LifeStaff(new Item.Properties().durability(2000)));
 
+    public static final RegistryObject<Item> DRAGON_HUNTER_SWORD = ITEMS.register("dragon_hunter_sword",
+            () -> new DragonHunterSword(Tiers.NETHERITE, 15, -2.4F,
+                    new Item.Properties().durability(3000)));
+
+    public static final RegistryObject<Item> FLAME_GOD_SMITHING_TEMPLATE = ITEMS.register("flame_god_smithing_template",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> FLAME_GOD_INGOT = ITEMS.register("flame_god_ingot",
+            () -> new Item(new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> FLAME_GOD_AXE = ITEMS.register("flame_god_axe",
+            () -> new FlameGodAxe(Tiers.NETHERITE, 12, -3.0F,
+                    new Item.Properties().durability(2500).fireResistant()));
+
+    public static final RegistryObject<Item> FLAME_GOD_PICKAXE = ITEMS.register("flame_god_pickaxe",
+            () -> new FlameGodPickaxe(Tiers.NETHERITE, 6, -2.8F,
+                    new Item.Properties().durability(2500).fireResistant()));
+
+    public static final RegistryObject<Item> FLAME_GOD_HOE = ITEMS.register("flame_god_hoe",
+            () -> new FlameGodHoe(Tiers.NETHERITE, -2, -1.0F,
+                    new Item.Properties().durability(2500).fireResistant()));
+
+    public static final RegistryObject<Item> FLAME_GOD_SHOVEL = ITEMS.register("flame_god_shovel",
+            () -> new FlameGodShovel(Tiers.NETHERITE, 6.5F, -3.0F,
+                    new Item.Properties().durability(2500).fireResistant()));
+
+    public static final RegistryObject<Item> FOREST_SMITHING_TEMPLATE = ITEMS.register("forest_smithing_template",
+            () -> new ForestSmithingTemplate(new Item.Properties()));
+            
+    public static final RegistryObject<Item> FOREST_INGOT = ITEMS.register("forest_ingot",
+            () -> new ForestIngot(new Item.Properties()));
+            
+    public static final RegistryObject<Item> FOREST_AXE = ITEMS.register("forest_axe",
+            () -> new ForestAxe(Tiers.NETHERITE, 10.0F, -3.0F,
+                    new Item.Properties().durability(3000)));
+                    
+    public static final RegistryObject<Item> FOREST_PICKAXE = ITEMS.register("forest_pickaxe",
+            () -> new ForestPickaxe(Tiers.NETHERITE, 5, -2.8F,
+                    new Item.Properties().durability(3000)));
+                    
+    public static final RegistryObject<Item> FOREST_HOE = ITEMS.register("forest_hoe",
+            () -> new ForestHoe(Tiers.NETHERITE, -2, -1.0F,
+                    new Item.Properties().durability(3000)));
+                    
+    public static final RegistryObject<Item> FOREST_SHOVEL = ITEMS.register("forest_shovel",
+            () -> new ForestShovel(Tiers.NETHERITE, 6.5F, -3.0F,
+                    new Item.Properties().durability(3000)));
+                    
+    public static final RegistryObject<Item> MAGIC_CRYSTAL_APPLE = ITEMS.register("magic_crystal_apple",
+            () -> new MagicCrystalApple(new Item.Properties().rarity(Rarity.EPIC)));
+            
+    public static final RegistryObject<Item> FEAR_TEAR = ITEMS.register("fear_tear",
+            () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
 }

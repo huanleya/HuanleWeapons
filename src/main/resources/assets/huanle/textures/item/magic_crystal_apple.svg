@@ -1,0 +1,26 @@
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <!-- 苹果基本形状 -->
+  <path d="M6 3 L10 3 L11 4 L11 12 L5 12 L5 4 Z" fill="#FFD700" />
+  
+  <!-- 苹果顶部茎和叶子 -->
+  <path d="M7 2 L9 2 L9 3 L7 3 Z" fill="#8B4513" />
+  <path d="M9 1 L11 1 L10 3 L8 3 Z" fill="#228B22" />
+  
+  <!-- 魔力水晶效果 -->
+  <path d="M6 5 L7 4 L8 5 L7 6 Z" fill="#00FFFF" opacity="0.8" />
+  <path d="M9 7 L10 6 L11 7 L10 8 Z" fill="#00FFFF" opacity="0.8" />
+  <path d="M5 9 L6 8 L7 9 L6 10 Z" fill="#00FFFF" opacity="0.8" />
+  
+  <!-- 光泽效果 -->
+  <path d="M7 5 L9 5 L8 7 L6 7 Z" fill="#FFFFFF" opacity="0.3" />
+  
+  <!-- 魔力粒子 -->
+  <circle cx="6" cy="6" r="0.3" fill="#00FFFF" />
+  <circle cx="10" cy="7" r="0.3" fill="#00FFFF" />
+  <circle cx="8" cy="9" r="0.3" fill="#00FFFF" />
+  <circle cx="7" cy="11" r="0.3" fill="#00FFFF" />
+  <circle cx="9" cy="10" r="0.3" fill="#00FFFF" />
+  
+  <!-- 发光效果 -->
+  <circle cx="8" cy="8" r="4" fill="#00FFFF" opacity="0.1" />
+</svg>

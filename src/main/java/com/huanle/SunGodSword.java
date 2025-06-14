@@ -40,7 +40,7 @@ public class SunGodSword extends SwordItem {
     public @Nonnull InteractionResultHolder<ItemStack> use(@Nonnull Level level, @Nonnull Player player, @Nonnull InteractionHand hand) {
         ItemStack itemstack = player.getItemInHand(hand);
         if (!level.isClientSide) {
-            AABB aabb = player.getBoundingBox().inflate(8.0D);
+            AABB aabb = player.getBoundingBox().inflate(16.0D);
             List<LivingEntity> entities = level.getEntitiesOfClass(LivingEntity.class, aabb);
             
             for (LivingEntity entity : entities) {

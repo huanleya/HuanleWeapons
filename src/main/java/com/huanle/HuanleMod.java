@@ -7,6 +7,7 @@ import net.minecraftforge.fml.javafmlmod.FMLModContainer;
 import net.minecraftforge.client.model.obj.ObjLoader;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.loading.FMLEnvironment;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 
 @Mod(HuanleMod.MOD_ID)
 public class HuanleMod {
@@ -25,8 +26,11 @@ public class HuanleMod {
         ModEnchantments.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
         ModEffects.EFFECTS.register(modEventBus);
+        ModPotions.POTIONS.register(modEventBus);
+
+        // 注册酿造配方
+        modEventBus.addListener(ModBrewingRecipes::register);
 
     }
-    
 
 }

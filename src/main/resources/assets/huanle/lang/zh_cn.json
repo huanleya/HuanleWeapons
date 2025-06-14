@@ -1,4 +1,5 @@
 {
+  "enchantment.huanle.lava_walker": "熔岩行者",
   "item.huanle.huanle_sword": "终焉剑",
 
   "item.huanle.green_dragon_sword": "青龙剑",
@@ -8,7 +9,7 @@
 
   "item.huanle.sun_god_sword": "太阳神剑",
   "item.huanle.sun_god_sword.desc": "右键释放范围技能",
-  "item.huanle.sun_god_sword.desc2": "造成5点伤害，范围为8x8格,并燃烧实体",
+  "item.huanle.sun_god_sword.desc2": "造成5点伤害，范围为16x16格,并燃烧实体",
 
   "item.huanle.throwing_axe": "投掷斧",
   "item.huanle.throwing_axe.desc": "右键可以丢出斧头",
@@ -25,6 +26,7 @@
 
   "itemGroup.huanle_tab": "huanle的武器",
   "itemGroup.huanle_materials_tab": "huanle的武器:材料",
+  "itemGroup.huanle_blocks_tab": "huanle的武器:方块",
 
   "item.huanle.ender_sword": "末影之剑",
   "item.huanle.ender_sword.desc": "右键可以丢出末影珍珠",
@@ -141,5 +143,69 @@
   "advancements.huanle.lava_ingot.description": "获得一个熔岩锭",
 
   "advancements.huanle.fire_god_ingot.title": "炎神精华",
-  "advancements.huanle.fire_god_ingot.description": "合成一个炎神锭"
+  "advancements.huanle.fire_god_ingot.description": "合成一个炎神锭",
+
+  "item.huanle.dragon_hunter_sword": "猎龙剑",
+  "item.huanle.dragon_hunter_sword.desc": "右键瞬移8格距离（冷却5秒）",
+  "item.huanle.dragon_hunter_sword.desc2": "右键潜行切换形态（冷却60秒）",
+  "item.huanle.dragon_hunter_sword.desc3": "切换形态时获得力量II和速度II效果30秒",
+
+  "item.huanle.awakened_dragon_hunter_sword": "觉醒猎龙剑",
+  "item.huanle.awakened_dragon_hunter_sword.desc": "剑身自带末影粒子特效",
+  "item.huanle.awakened_dragon_hunter_sword.desc2": "20%概率造成额外伤害并施加虚弱效果",
+  "item.huanle.awakened_dragon_hunter_sword.desc3": "右键对20x20范围内实体施加发光效果（冷却60秒）",
+  "item.huanle.awakened_dragon_hunter_sword.desc4": "攻击发光实体造成双倍伤害",
+
+  "advancements.huanle.dragon_hunter_sword.title": "猎龙剑士",
+  "advancements.huanle.dragon_hunter_sword.description": "获得一把猎龙剑",
+
+  "item.huanle.dragon_hunter_sword.transform_cooldown_time": "形态切换冷却中，还剩 %s 秒...",
+  "item.huanle.dragon_hunter_sword.transformed_awakened": "你切换到了觉醒形态！",
+  "item.huanle.dragon_hunter_sword.transformed_normal": "你切换回了普通形态。",
+  "item.huanle.dragon_hunter_sword.glow_success": "你成功施加了发光效果！",
+  "item.huanle.dragon_hunter_sword.teleport_cooldown_time": "瞬移技能冷却中，还剩 %s 秒...",
+  "item.huanle.dragon_hunter_sword.teleport_success": "你成功瞬移了！",
+  "item.huanle.dragon_hunter_sword.teleport_unsafe": "瞬移位置不安全！",
+  "item.huanle.dragon_hunter_sword.glow_cooldown_time": "发光技能冷却中，还剩 %s 秒...",
+
+  "item.huanle.flame_god_smithing_template": "炎神锻造模板",
+  "item.huanle.flame_god_axe": "炎神斧",
+  "item.huanle.flame_god_axe.desc": "用炎神锭锻造的强大斧头",
+  "item.huanle.flame_god_pickaxe": "炎神镐",
+  "item.huanle.flame_god_pickaxe.desc": "用炎神锭锻造的强大镐子",
+  "item.huanle.flame_god_hoe": "炎神锄",
+  "item.huanle.flame_god_hoe.desc": "用炎神锭锻造的强大锄头",
+  "item.huanle.flame_god_shovel": "炎神铲",
+  "item.huanle.flame_god_shovel.desc": "用炎神锭锻造的强大铲子",
+
+  "item.huanle.forest_smithing_template": "森林锻造模板",
+  "item.huanle.forest_ingot": "森林锭",
+  "item.huanle.forest_axe": "森林斧",
+  "item.huanle.forest_axe.desc": "攻击敌人时会使其中毒",
+  "item.huanle.forest_pickaxe": "森林镐",
+  "item.huanle.forest_pickaxe.desc": "攻击敌人时会使其中毒",
+  "item.huanle.forest_hoe": "森林锄",
+  "item.huanle.forest_hoe.desc": "攻击敌人时会使其中毒",
+  "item.huanle.forest_shovel": "森林铲",
+  "item.huanle.forest_shovel.desc": "攻击敌人时会使其中毒",
+
+  "item.huanle.magic_crystal_apple": "魔力水晶苹果",
+  "item.huanle.magic_crystal_apple.desc": "§6食用后获得多种增益效果",
+
+  "item.huanle.fear_tear": "恐惧之泪",
+  "effect.huanle.fear": "恐惧",
+  "effect.huanle.fear.desc": "阻止所有形式的生命恢复，包括食物回血、生命恢复效果和瞬间治疗。II级或更高级别时，还会阻止饱食度恢复",
+
+  "item.minecraft.tipped_arrow.effect.fear_potion": "恐惧之箭",
+  "item.minecraft.tipped_arrow.effect.long_fear_potion": "恐惧之箭",
+  "item.minecraft.tipped_arrow.effect.strong_fear_potion": "恐惧之箭",
+  "item.minecraft.potion.effect.fear_potion": "恐惧药水",
+  "item.minecraft.potion.effect.long_fear_potion": "恐惧药水",
+  "item.minecraft.potion.effect.strong_fear_potion": "恐惧药水",
+  "item.minecraft.splash_potion.effect.fear_potion": "喷溅型恐惧药水",
+  "item.minecraft.splash_potion.effect.long_fear_potion": "喷溅型恐惧药水",
+  "item.minecraft.splash_potion.effect.strong_fear_potion": "喷溅型恐惧药水",
+  "item.minecraft.lingering_potion.effect.fear_potion": "滞留型恐惧药水",
+  "item.minecraft.lingering_potion.effect.long_fear_potion": "滞留型恐惧药水",
+  "item.minecraft.lingering_potion.effect.strong_fear_potion": "滞留型恐惧药水"
 }

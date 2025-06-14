@@ -4,7 +4,9 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
+import net.minecraftforge.event.entity.living.LivingHealEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.Event.Result;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = HuanleMod.MOD_ID)
@@ -34,6 +36,20 @@ public class EventHandler {
                     LightningEnchantment.onHitEntity(target, attacker, offHandWeapon, offHandLevel);
                 }
             }
+        }
+    }
+    
+    /**
+     * 处理生命恢复事件，当实体有恐惧效果时取消生命恢复
+     */
+    @SubscribeEvent
+    public static void onLivingHeal(LivingHealEvent event) {
+        LivingEntity entity = event.getEntity();
+        
+        // 检查实体是否有恐惧效果
+        if (entity.hasEffect(ModEffects.FEAR.get())) {
+            // 取消生命恢复事件
+            event.setCanceled(true);
         }
     }
 }

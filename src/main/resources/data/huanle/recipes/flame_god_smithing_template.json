@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "CFC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "huanle:magic_crystal"
+        },
+        "F": {
+            "item": "huanle:fire_god_ingot"
+        }
+    },
+    "result": {
+        "item": "huanle:flame_god_smithing_template",
+        "count": 1
+    }
+}
