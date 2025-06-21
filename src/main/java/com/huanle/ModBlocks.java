@@ -46,4 +46,15 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .lightLevel(state -> 7)  // 发光效果
             ));
+            
+    // 末影水晶矿石 - 与钻石矿石相似的硬度和稀有度
+    public static final RegistryObject<Block> ENDER_CRYSTAL_ORE = BLOCKS.register("ender_crystal_ore", 
+            () -> new EnderCrystalOreBlock(
+                BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_PURPLE) // 紫色调
+                    .requiresCorrectToolForDrops()
+                    .strength(5.0F, 6.0F) // 与钻石矿石相同的硬度
+                    .sound(SoundType.STONE)
+                    .lightLevel(state -> 0) // 轻微发光效果
+            ));
 }

@@ -1,0 +1,241 @@
+{
+  "enchantment.huanle.lava_walker": "용암 걷기",
+  "item.huanle.huanle_sword": "종언의 검",
+
+  "item.huanle.green_dragon_sword": "청룡검",
+  "item.huanle.green_dragon_sword.desc": "적에게 맞으면 5초 동안 중독 상태가 됩니다",
+  "item.huanle.green_dragon_sword.desc2": "20% 확률로 일시적인 속도 부스트를 얻습니다",
+  "item.huanle.green_dragon_sword.desc3": "공격 후 10% 확률로 2의 생명력을 회복합니다",
+
+  "item.huanle.sun_god_sword": "태양신검",
+  "item.huanle.sun_god_sword.desc": "오른쪽 클릭으로 범위 스킬을 발동하고, 5초 동안 급속 II 효과를 얻습니다",
+  "item.huanle.sun_god_sword.desc2": "16x16 범위에서 5의 피해를 주고, 엔티티를 불태웁니다",
+
+  "item.huanle.throwing_axe": "던지기 도끼",
+  "item.huanle.throwing_axe.desc": "오른쪽 클릭으로 도끼를 던집니다",
+  "item.huanle.throwing_axe.charge": "오른쪽 클릭을 길게 누르면 충전, 충전 시간이 길수록 던지는 거리가 멀어집니다",
+
+  "enchantment.huanle.lightning_strike": "번개 침",
+  "enchantment.huanle.lightning_strike.desc": "엔티티를 공격하면 번개가 떨어집니다, 레벨이 높을수록 더 많은 번개가 떨어집니다, 검, 삼단戟, 도끼에 사용 가능",
+
+  "enchantment.huanle.quick_draw": "빠른 당겨 쏘기",
+  "enchantment.huanle.quick_draw.desc": "레벨마다 당겨 쏘는 시간을 0.3초 감소시킵니다",
+
+  "entity.huanle.throwing_axe": "던지기 도끼",
+
+  "itemGroup.huanle_tab": "Huanle의 무기",
+  "itemGroup.huanle_materials_tab": "Huanle의 무기: 재료",
+  "itemGroup.huanle_blocks_tab": "Huanle의 무기: 블록",
+  "itemGroup.huanle_armor_tab": "Huanle의 무기: 갑옷",
+
+  "item.huanle.ender_sword": "엔더검",
+  "item.huanle.ender_sword.desc": "오른쪽 클릭으로 엔더 퍼를 던집니다",
+  "item.huanle.ender_sword.desc2": "20% 확률로 추가 피해를 주고, 대상에게 약화 버프를 적용합니다",
+
+  "advancements.huanle.ender_sword.title": "엔더 검사",
+  "advancements.huanle.ender_sword.description": "엔더검을 획득합니다",
+  "advancements.huanle.sun_god_sword.title": "태양신 검사",
+  "advancements.huanle.sun_god_sword.description": "태양신검을 획득합니다",
+
+  "item.huanle.flame_bow": "플레임 보우",
+  "item.huanle.flame_bow.desc": "플레임 화살만 쏠 수 있습니다",
+  "item.huanle.flame_arrow": "플레임 화살",
+
+  "advancements.huanle.flame_bow.title": "플레임 아처",
+  "advancements.huanle.flame_bow.description": "플레임 보우를 획득합니다",
+  "advancements.huanle.huanle_sword.title": "종언 검사",
+  "advancements.huanle.huanle_sword.description": "종언의 검을 획득합니다",
+
+  "advancements.huanle.root.title": "마법 결정 발견자",
+  "advancements.huanle.root.description": "마법 결정을 채굴합니다",
+
+  "item.huanle.magic_crystal": "마법 결정",
+  "block.huanle.magic_crystal_ore": "마법 결정 광석",
+  "block.huanle.ender_crystal_ore": "엔더 결정 광석",
+
+  "item.huanle.lava_ingot": "용암 인골트",
+
+  "item.huanle.lava_sword": "용암검",
+  "item.huanle.lava_sword.desc": "엔티티를 공격할 때 불타게 합니다",
+
+  "advancements.huanle.lava_sword.title": "용암 검사",
+  "advancements.huanle.lava_sword.description": "용암검을 획득합니다",
+
+  "block.huanle.deepslate_magic_crystal_ore": "딥슬레이트 마법 결정 광석",
+  "block.huanle.magic_crystal_block": "마법 결정 블록",
+
+  "item.huanle.moonlight_sword": "문라이트 검",
+  "item.huanle.moonlight_sword.desc": "오른쪽 클릭으로 파란색 반달 모양을 발사합니다(쿨다운 2초)",
+  "item.huanle.moonlight_sword.desc2": "호가 적중한 경우, 10초 동안 얼음 상태가 됩니다",
+
+  "item.huanle.moon_crescent_sword": "새월검",
+  "item.huanle.moon_crescent_sword.desc": "손에 들면 저항력을 얻습니다",
+  "item.huanle.moon_crescent_sword.desc2": "공격된 타겟을 느리게 만듭니다",
+
+  "effect.huanle.freezing": "얼음",
+  "effect.huanle.freezing.desc": "레벨마다 이동 속도를 30% 감소시키고, 시간 경과에 따라 0.5의 마법 피해를 줍니다",
+
+  "item.huanle.blue_flame_sword": "블루 플레임 검",
+  "item.huanle.blue_flame_sword.desc": "손에 들면 방화 효과를 얻습니다",
+  "item.huanle.blue_flame_sword.desc2": "적중 시 연소 시간을 5초 증가시킵니다",
+  "item.huanle.blue_flame_sword.desc3": "불타는 타겟에게 4배의 피해를 줍니다",
+
+  "item.huanle.ender_hammer": "엔더 해머",
+  "item.huanle.ender_hammer.desc": "3x3 영역의 블록을 채굴할 수 있습니다",
+  "item.huanle.ender_hammer.desc2": "20% 확률로 적을 스턴시킵니다",
+
+  "advancements.huanle.green_dragon_sword.title": "청룡 나타남",
+  "advancements.huanle.green_dragon_sword.description": "청룡검을 획득합니다",
+
+  "advancements.huanle.moon_crescent_sword.title": "새월의 칼",
+  "advancements.huanle.moon_crescent_sword.description": "새월검을 획득합니다",
+
+  "advancements.huanle.moonlight_sword.title": "皎月의 빛",
+  "advancements.huanle.moonlight_sword.description": "문라이트 검을 획득합니다",
+
+  "advancements.huanle.blue_flame_sword.title": "유라인의 불꽃",
+  "advancements.huanle.blue_flame_sword.description": "블루 플레임 검을 획득합니다",
+
+  "advancements.huanle.ender_hammer.title": "엔더 분쇄자",
+  "advancements.huanle.ender_hammer.description": "엔더 해머를 획득합니다",
+
+  "item.huanle.forest_blade": "숲의 칼",
+  "item.huanle.forest_blade.desc": "물속에서 손에 들면 생명 회복 효과를 얻습니다",
+  "item.huanle.forest_blade.desc2": "30% 확률로 적에게 위저 II 효과를 5초 동안 적용합니다",
+  "item.huanle.forest_blade.desc3": "3% 확률로 공격 시 생명력을 완전히 회복합니다",
+  "item.huanle.forest_blade.desc4": "앉아서 오른쪽 클릭으로 10의 생명력을 소모하여 힘 II 효과를 10초 동안 얻습니다",
+
+  "advancements.huanle.forest_blade.title": "숲의 수호자",
+  "advancements.huanle.forest_blade.description": "숲의 칼을 획득합니다",
+
+  "item.huanle.death_scythe": "죽음의 곡괭이",
+  "item.huanle.death_scythe.desc": "적을 공격하면 4의 생명력을 흡수합니다",
+  "item.huanle.death_scythe.desc2": "5% 확률로 출혈 효과를 트리거합니다(현재 생명력의 30%를 제거하고 지속적으로 피해를 줌)",
+  "item.huanle.death_scythe.desc3": "앉아서 오른쪽 클릭으로 10의 생명력을 소모하여 적에게 8초 동안 위저 II 효과를 적용합니다",
+
+  "effect.huanle.bleeding": "출혈",
+  "effect.huanle.bleeding.desc": "지속적으로 마법 피해를 줍니다",
+
+  "effect.huanle.fear": "공포",
+  "effect.huanle.fear.desc": "모든 회복을 차단합니다, 배고픔 회복, 포화도 회복, 회복 효과, 즉시 치유 효과를 포함합니다",
+
+  "advancements.huanle.death_scythe.title": "죽음의 수확자",
+  "advancements.huanle.death_scythe.description": "죽음의 곡괭이를 획득합니다",
+
+  "item.huanle.looting_dagger": "노략질 칼",
+  "item.huanle.looting_dagger.desc": "행운 V 부여, 전리품 드롭률을 향상시킵니다",
+
+  "advancements.huanle.looting_dagger.title": "노략질자",
+  "advancements.huanle.looting_dagger.description": "노략질 칼을 획득합니다",
+
+  "item.huanle.fire_god_ingot": "불신 인골트",
+
+  "item.huanle.fire_god_dagger": "불신 단검",
+  "item.huanle.fire_god_dagger.desc": "손에 들면 방화 버프를 얻습니다",
+  "item.huanle.fire_god_dagger.desc2": "엔티티를 공격하면 10초 동안 불타게 합니다",
+
+  "advancements.huanle.fire_god_dagger.title": "불신 사자",
+  "advancements.huanle.fire_god_dagger.description": "불신 단검을 획득합니다",
+
+  "item.huanle.life_staff": "생명 지팡이",
+  "item.huanle.life_staff.desc": "오른쪽 클릭으로 6의 생명력을 회복합니다",
+  "item.huanle.life_staff.desc2": "쿨다운은 60초입니다",
+  "item.huanle.life_staff.desc3": "각 사용 시 5의 내구도를 소모합니다",
+
+  "advancements.huanle.lava_ingot.title": "융합 금속",
+  "advancements.huanle.lava_ingot.description": "용암 인골트를 획득합니다",
+
+  "advancements.huanle.fire_god_ingot.title": "불신 정수",
+  "advancements.huanle.fire_god_ingot.description": "불신 인골트를 합성합니다",
+
+  "item.huanle.dragon_hunter_sword": "드래곤 헌터 검",
+  "item.huanle.dragon_hunter_sword.desc": "오른쪽 클릭으로 8 블록 떨어진 위치로 순간 이동합니다(쿨다운 5초)",
+  "item.huanle.dragon_hunter_sword.desc2": "앉아서 오른쪽 클릭으로 형태를 변경합니다(쿨다운 60초)",
+  "item.huanle.dragon_hunter_sword.desc3": "형태를 변경하면 힘 II와 속도 II 효과를 30초 동안 얻습니다",
+
+  "item.huanle.awakened_dragon_hunter_sword": "각성 드래곤 헌터 검",
+  "item.huanle.awakened_dragon_hunter_sword.desc": "검신에는 엔더 입자 효과가 있습니다",
+  "item.huanle.awakened_dragon_hunter_sword.desc2": "20% 확률로 추가 피해를 주고, 약화 효과를 적용합니다",
+  "item.huanle.awakened_dragon_hunter_sword.desc3": "오른쪽 클릭으로 20x20 범위 내의 엔티티에 빛나는 효과를 적용합니다(쿨다운 60초)",
+  "item.huanle.awakened_dragon_hunter_sword.desc4": "빛나는 엔티티에게 두 배의 피해를 줍니다",
+
+  "advancements.huanle.dragon_hunter_sword.title": "드래곤 헌터 검사",
+  "advancements.huanle.dragon_hunter_sword.description": "드래곤 헌터 검을 획득합니다",
+
+  "item.huanle.dragon_hunter_sword.transform_cooldown_time": "형태 변경 쿨다운 중, 남은 %s 초...",
+  "item.huanle.dragon_hunter_sword.transformed_awakened": "각성 형태로 변경되었습니다!",
+  "item.huanle.dragon_hunter_sword.transformed_normal": "일반 형태로 돌아왔습니다.",
+  "item.huanle.dragon_hunter_sword.glow_success": "빛나는 효과를 성공적으로 적용했습니다!",
+  "item.huanle.dragon_hunter_sword.teleport_cooldown_time": "순간 이동 스킬 쿨다운 중, 남은 %s 초...",
+  "item.huanle.dragon_hunter_sword.teleport_success": "순간 이동에 성공했습니다!",
+  "item.huanle.dragon_hunter_sword.teleport_unsafe": "위험한 순간 이동 위치입니다!",
+  "item.huanle.dragon_hunter_sword.glow_cooldown_time": "빛나는 스킬 쿨다운 중, 남은 %s 초...",
+
+  "item.huanle.flame_god_smithing_template": "불신 조련 템플릿",
+  "item.huanle.flame_god_axe": "불신 도끼",
+  "item.huanle.flame_god_axe.desc": "불신 인골트로 조련한 강력한 도끼",
+  "item.huanle.flame_god_pickaxe": "불신 곡괭이",
+  "item.huanle.flame_god_pickaxe.desc": "불신 인골트로 조련한 강력한 곡괭이",
+  "item.huanle.flame_god_hoe": "불신 호미",
+  "item.huanle.flame_god_hoe.desc": "불신 인골트로 조련한 강력한 호미",
+  "item.huanle.flame_god_shovel": "불신 삽",
+  "item.huanle.flame_god_shovel.desc": "불신 인골트로 조련한 강력한 삽",
+
+  "item.huanle.forest_smithing_template": "숲 조련 템플릿",
+  "item.huanle.forest_ingot": "숲 인골트",
+  "item.huanle.forest_axe": "숲 도끼",
+  "item.huanle.forest_axe.desc": "적을 공격하면 중독 상태가 됩니다",
+  "item.huanle.forest_pickaxe": "숲 곡괭이",
+  "item.huanle.forest_pickaxe.desc": "적을 공격하면 중독 상태가 됩니다",
+  "item.huanle.forest_hoe": "숲 호미",
+  "item.huanle.forest_hoe.desc": "적을 공격하면 중독 상태가 됩니다",
+  "item.huanle.forest_shovel": "숲 삽",
+  "item.huanle.forest_shovel.desc": "적을 공격하면 중독 상태가 됩니다",
+
+  "item.huanle.forest_helmet": "숲 헬멧",
+  "item.huanle.forest_chestplate": "숲 가슴판",
+  "item.huanle.forest_leggings": "숲 바지",
+  "item.huanle.forest_boots": "숲 신발",
+  "item.huanle.forest_armor.desc": "세트를 착용하면 물속에서 재생 II 효과를 얻습니다",
+
+  "item.huanle.magic_crystal_apple": "마법 결정 사과",
+  "item.huanle.magic_crystal_apple.desc": "§6먹으면 다양한 버프를 얻습니다",
+
+  "item.huanle.fear_tear": "공포의 눈물",
+  "item.minecraft.tipped_arrow.effect.fear_potion": "공포의 화살",
+  "item.minecraft.tipped_arrow.effect.long_fear_potion": "장시간 지속되는 공포의 화살",
+  "item.minecraft.tipped_arrow.effect.strong_fear_potion": "강력한 공포의 화살",
+  "item.minecraft.potion.effect.fear_potion": "공포의 포션",
+  "item.minecraft.potion.effect.long_fear_potion": "장시간 지속되는 공포의 포션",
+  "item.minecraft.potion.effect.strong_fear_potion": "강력한 공포의 포션",
+  "item.minecraft.splash_potion.effect.fear_potion": "스플래시 공포의 포션",
+  "item.minecraft.splash_potion.effect.long_fear_potion": "장시간 지속되는 스프래시 공포의 포션",
+  "item.minecraft.splash_potion.effect.strong_fear_potion": "강력한 스프래시 공포의 포션",
+  "item.minecraft.lingering_potion.effect.fear_potion": "지속형 공포의 포션",
+  "item.minecraft.lingering_potion.effect.long_fear_potion": "장시간 지속되는 지속형 공포의 포션",
+  "item.minecraft.lingering_potion.effect.strong_fear_potion": "강력한 지속형 공포의 포션",
+
+  "item.huanle.earth_sword": "대지의 검",
+  "item.huanle.earth_sword.desc": "오른쪽 클릭: 앞방향으로 강타, 앞의 엔티티에게 피해를 줍니다(쿨다운 10초)",
+  "item.huanle.earth_sword.desc2": "앉아서 오른쪽 클릭: 지진을 일으키고, 주변 블록을 흔들며 엔티티에게 피해를 줍니다(쿨다운 10초)",
+  "item.huanle.earth_sword.cooldown_earthquake": "지진 공격 쿨다운 중. 남은:%s 초",
+  "item.huanle.earth_sword.cooldown_pull": "폭발 공격 쿨다운 중. 남은:%s 초",
+
+  "item.huanle.black_gold_katana": "검금 칼",
+  "item.huanle.black_gold_katana.tooltip": "검금으로 조련한 강력한 칼",
+
+  "item.huanle.ender_crystal": "엔더 결정",
+  "item.huanle.ender_crystal_apple": "엔더 결정 사과",
+  "item.huanle.ender_crystal_apple.desc": "§6먹으면 여러 가지 강력한 버프를 얻습니다, 엔더 저항성을 포함합니다",
+  "effect.huanle.ender_resistance": "엔더 저항성",
+  "effect.huanle.ender_resistance.description": "엔더 드래곤의 숨결이나 엔더 퍼의 순간 이동 피해에 면역",
+
+  "item.huanle.amethyst_apple": "아메소아 사과",
+  "item.huanle.amethyst_apple.desc": "§6먹으면 저항력 V, 흡수 IV, 재생 II 효과를 얻습니다",
+
+  "item.huanle.fire_god_helmet": "불신 헬멧",
+  "item.huanle.fire_god_chestplate": "불신 가슴판",
+  "item.huanle.fire_god_leggings": "불신 바지",
+  "item.huanle.fire_god_boots": "불신 신발",
+  "item.huanle.fire_god_armor.desc": "세트를 착용하면 방화 효과를 얻으며, 용암에서 힘 II 효과를 얻습니다"
+}

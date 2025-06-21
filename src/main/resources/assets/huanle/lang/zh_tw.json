@@ -1,0 +1,241 @@
+{
+  "enchantment.huanle.lava_walker": "熔岩步行者",
+  "item.huanle.huanle_sword": "終焉之劍",
+
+  "item.huanle.green_dragon_sword": "青龍劍",
+  "item.huanle.green_dragon_sword.desc": "命中敵人時使其中毒5秒",
+  "item.huanle.green_dragon_sword.desc2": "20%機率獲得短暫加速效果",
+  "item.huanle.green_dragon_sword.desc3": "攻擊命中後10%恢復2點生命值",
+
+  "item.huanle.sun_god_sword": "太陽神劍",
+  "item.huanle.sun_god_sword.desc": "右鍵釋放範圍技能,並獲得5秒急迫II效果",
+  "item.huanle.sun_god_sword.desc2": "造成5點傷害，範圍為16x16格,並燃燒實體",
+
+  "item.huanle.throwing_axe": "投擲斧",
+  "item.huanle.throwing_axe.desc": "右鍵可以丟出斧頭",
+  "item.huanle.throwing_axe.charge": "長按右鍵蓄力，蓄力時間越長投擲距離越遠",
+
+  "enchantment.huanle.lightning_strike": "附雷",
+  "enchantment.huanle.lightning_strike.desc": "攻擊實體時會落下閃電，等級越高落下的閃電越多，可用於劍、三叉戟和斧頭",
+
+  "enchantment.huanle.quick_draw": "快速拉弓",
+  "enchantment.huanle.quick_draw.desc": "每級減少拉弓時間0.3秒",
+
+  "entity.huanle.throwing_axe": "投擲斧",
+
+  "itemGroup.huanle_tab": "Huanle的武器",
+  "itemGroup.huanle_materials_tab": "Huanle的武器: 材料",
+  "itemGroup.huanle_blocks_tab": "Huanle的武器: 方塊",
+  "itemGroup.huanle_armor_tab": "Huanle的武器: 盔甲",
+
+  "item.huanle.ender_sword": "末影之劍",
+  "item.huanle.ender_sword.desc": "右鍵可以丟出末影珍珠",
+  "item.huanle.ender_sword.desc2": "20%機率造成額外傷害,並對目標施加虛弱buff",
+
+  "advancements.huanle.ender_sword.title": "末影劍士",
+  "advancements.huanle.ender_sword.description": "獲得一把末影之劍",
+  "advancements.huanle.sun_god_sword.title": "太陽神劍士",
+  "advancements.huanle.sun_god_sword.description": "獲得一把太陽神劍",
+
+  "item.huanle.flame_bow": "烈焰弓",
+  "item.huanle.flame_bow.desc": "只能使用烈焰箭射擊",
+  "item.huanle.flame_arrow": "烈焰箭",
+
+  "advancements.huanle.flame_bow.title": "烈焰射手",
+  "advancements.huanle.flame_bow.description": "獲得一把烈焰弓",
+  "advancements.huanle.huanle_sword.title": "終焉劍士",
+  "advancements.huanle.huanle_sword.description": "獲得一把終焉之劍",
+
+  "advancements.huanle.root.title": "魔力水晶的發現者",
+  "advancements.huanle.root.description": "挖到一個魔力水晶",
+
+  "item.huanle.magic_crystal": "魔力水晶",
+  "block.huanle.magic_crystal_ore": "魔力水晶礦石",
+  "block.huanle.ender_crystal_ore": "末影水晶礦石",
+
+  "item.huanle.lava_ingot": "熔岩錠",
+
+  "item.huanle.lava_sword": "熔岩劍",
+  "item.huanle.lava_sword.desc": "攻擊實體時，使實體著火",
+
+  "advancements.huanle.lava_sword.title": "熔岩劍士",
+  "advancements.huanle.lava_sword.description": "獲得一把熔岩劍",
+
+  "block.huanle.deepslate_magic_crystal_ore": "深板岩魔力水晶礦石",
+  "block.huanle.magic_crystal_block": "魔力水晶塊",
+
+  "item.huanle.moonlight_sword": "月光劍",
+  "item.huanle.moonlight_sword.desc": "右鍵發射藍色彎弧，冷卻2秒",
+  "item.huanle.moonlight_sword.desc2": "彎弧命中實體會造成10秒的凍傷",
+
+  "item.huanle.moon_crescent_sword": "月牙劍",
+  "item.huanle.moon_crescent_sword.desc": "手持獲得抗性提升效果",
+  "item.huanle.moon_crescent_sword.desc2": "攻擊目標使目標獲得緩慢效果",
+
+  "effect.huanle.freezing": "凍傷",
+  "effect.huanle.freezing.desc": "每級降低30%移動速度，並持續造成0.5點魔法傷害",
+
+  "item.huanle.blue_flame_sword": "藍焰劍",
+  "item.huanle.blue_flame_sword.desc": "手持獲得防火效果",
+  "item.huanle.blue_flame_sword.desc2": "攻擊命中時增加目標燃燒時間5秒",
+  "item.huanle.blue_flame_sword.desc3": "對著火的目標造成4倍傷害",
+
+  "item.huanle.ender_hammer": "末影錘",
+  "item.huanle.ender_hammer.desc": "可以挖掘3x3區域的方塊",
+  "item.huanle.ender_hammer.desc2": "20%機率使敵人眩暈",
+
+  "advancements.huanle.green_dragon_sword.title": "青龍顯世",
+  "advancements.huanle.green_dragon_sword.description": "獲得一把青龍劍",
+
+  "advancements.huanle.moon_crescent_sword.title": "新月之刃",
+  "advancements.huanle.moon_crescent_sword.description": "獲得一把月牙劍",
+
+  "advancements.huanle.moonlight_sword.title": "皎月之輝",
+  "advancements.huanle.moonlight_sword.description": "獲得一把月光劍",
+
+  "advancements.huanle.blue_flame_sword.title": "幽藍之火",
+  "advancements.huanle.blue_flame_sword.description": "獲得一把藍焰劍",
+
+  "advancements.huanle.ender_hammer.title": "末影粉碎者",
+  "advancements.huanle.ender_hammer.description": "獲得一把末影錘",
+
+  "item.huanle.forest_blade": "森林之刃",
+  "item.huanle.forest_blade.desc": "在水中手持獲得生命恢復效果",
+  "item.huanle.forest_blade.desc2": "30%機率給敵人施加凋零II效果5秒",
+  "item.huanle.forest_blade.desc3": "3%機率攻擊時回滿生命值",
+  "item.huanle.forest_blade.desc4": "蹲下右鍵消耗10點生命換取力量II增益10秒",
+
+  "advancements.huanle.forest_blade.title": "森林的守護者",
+  "advancements.huanle.forest_blade.description": "獲得一把森林之刃",
+
+  "item.huanle.death_scythe": "死亡鐮刀",
+  "item.huanle.death_scythe.desc": "攻擊敵人吸取敵人4點生命值",
+  "item.huanle.death_scythe.desc2": "5%機率觸發失血效果(扣除當前血量30%並持續扣血)",
+  "item.huanle.death_scythe.desc3": "蹲下右鍵消耗10點生命值使敵人獲得8秒凋零II效果",
+
+  "effect.huanle.bleeding": "失血",
+  "effect.huanle.bleeding.desc": "持續造成魔法傷害",
+
+  "effect.huanle.fear": "恐懼",
+  "effect.huanle.fear.desc": "阻止任何生命恢復，包括飢餓值、飽和度回血、生命恢復效果和瞬間治療效果",
+
+  "advancements.huanle.death_scythe.title": "死亡收割者",
+  "advancements.huanle.death_scythe.description": "獲得一把死亡鐮刀",
+
+  "item.huanle.looting_dagger": "搶奪匕首",
+  "item.huanle.looting_dagger.desc": "自帶搶奪V附魔，提高戰利品掉落率",
+
+  "advancements.huanle.looting_dagger.title": "搶奪者",
+  "advancements.huanle.looting_dagger.description": "獲得一把搶奪匕首",
+
+  "item.huanle.fire_god_ingot": "炎神錠",
+
+  "item.huanle.fire_god_dagger": "炎神匕首",
+  "item.huanle.fire_god_dagger.desc": "手持獲得防火buff",
+  "item.huanle.fire_god_dagger.desc2": "攻擊實體時，使實體著火10秒",
+
+  "advancements.huanle.fire_god_dagger.title": "炎神使者",
+  "advancements.huanle.fire_god_dagger.description": "獲得一把炎神匕首",
+
+  "item.huanle.life_staff": "生命法杖",
+  "item.huanle.life_staff.desc": "右鍵恢復6點生命值",
+  "item.huanle.life_staff.desc2": "冷卻時間60秒",
+  "item.huanle.life_staff.desc3": "每次使用消耗5點耐久度",
+
+  "advancements.huanle.lava_ingot.title": "熔融金屬",
+  "advancements.huanle.lava_ingot.description": "獲得一個熔岩錠",
+
+  "advancements.huanle.fire_god_ingot.title": "炎神精華",
+  "advancements.huanle.fire_god_ingot.description": "合成一個炎神錠",
+
+  "item.huanle.dragon_hunter_sword": "獵龍劍",
+  "item.huanle.dragon_hunter_sword.desc": "右鍵瞬移8格距離（冷卻5秒）",
+  "item.huanle.dragon_hunter_sword.desc2": "右鍵潛行切換形態（冷卻60秒）",
+  "item.huanle.dragon_hunter_sword.desc3": "切換形態時獲得力量II和速度II效果30秒",
+
+  "item.huanle.awakened_dragon_hunter_sword": "覺醒獵龍劍",
+  "item.huanle.awakened_dragon_hunter_sword.desc": "劍身自帶末影粒子特效",
+  "item.huanle.awakened_dragon_hunter_sword.desc2": "20%機率造成額外傷害並施加虛弱效果",
+  "item.huanle.awakened_dragon_hunter_sword.desc3": "右鍵對20x20範圍內實體施加發光效果（冷卻60秒）",
+  "item.huanle.awakened_dragon_hunter_sword.desc4": "攻擊發光實體造成雙倍傷害",
+
+  "advancements.huanle.dragon_hunter_sword.title": "獵龍劍士",
+  "advancements.huanle.dragon_hunter_sword.description": "獲得一把獵龍劍",
+
+  "item.huanle.dragon_hunter_sword.transform_cooldown_time": "形態切換冷卻中，還剩 %s 秒...",
+  "item.huanle.dragon_hunter_sword.transformed_awakened": "你切換到了覺醒形態！",
+  "item.huanle.dragon_hunter_sword.transformed_normal": "你切換回了普通形態。",
+  "item.huanle.dragon_hunter_sword.glow_success": "你成功施加了發光效果！",
+  "item.huanle.dragon_hunter_sword.teleport_cooldown_time": "瞬移技能冷卻中，還剩 %s 秒...",
+  "item.huanle.dragon_hunter_sword.teleport_success": "你成功瞬移了！",
+  "item.huanle.dragon_hunter_sword.teleport_unsafe": "瞬移位置不安全！",
+  "item.huanle.dragon_hunter_sword.glow_cooldown_time": "發光技能冷卻中，還剩 %s 秒...",
+
+  "item.huanle.flame_god_smithing_template": "炎神鍛造模板",
+  "item.huanle.flame_god_axe": "炎神斧",
+  "item.huanle.flame_god_axe.desc": "用炎神錠鍛造的強大斧頭",
+  "item.huanle.flame_god_pickaxe": "炎神鎬",
+  "item.huanle.flame_god_pickaxe.desc": "用炎神錠鍛造的強大鎬子",
+  "item.huanle.flame_god_hoe": "炎神锄",
+  "item.huanle.flame_god_hoe.desc": "用炎神錠鍛造的強大锄頭",
+  "item.huanle.flame_god_shovel": "炎神鏟",
+  "item.huanle.flame_god_shovel.desc": "用炎神錠鍛造的強大鏟子",
+
+  "item.huanle.forest_smithing_template": "森林鍛造模板",
+  "item.huanle.forest_ingot": "森林錠",
+  "item.huanle.forest_axe": "森林斧",
+  "item.huanle.forest_axe.desc": "攻擊敵人時會使其中毒",
+  "item.huanle.forest_pickaxe": "森林鎬",
+  "item.huanle.forest_pickaxe.desc": "攻擊敵人時會使其中毒",
+  "item.huanle.forest_hoe": "森林锄",
+  "item.huanle.forest_hoe.desc": "攻擊敵人時會使其中毒",
+  "item.huanle.forest_shovel": "森林鏟",
+  "item.huanle.forest_shovel.desc": "攻擊敵人時會使其中毒",
+
+  "item.huanle.forest_helmet": "森林頭盔",
+  "item.huanle.forest_chestplate": "森林胸甲",
+  "item.huanle.forest_leggings": "森林護腿",
+  "item.huanle.forest_boots": "森林靴子",
+  "item.huanle.forest_armor.desc": "穿戴全套在水中獲得生命恢復II效果",
+
+  "item.huanle.magic_crystal_apple": "魔力水晶蘋果",
+  "item.huanle.magic_crystal_apple.desc": "§6食用後獲得多種增益效果",
+
+  "item.huanle.fear_tear": "恐懼之淚",
+  "item.minecraft.tipped_arrow.effect.fear_potion": "恐懼之箭",
+  "item.minecraft.tipped_arrow.effect.long_fear_potion": "恐懼之箭",
+  "item.minecraft.tipped_arrow.effect.strong_fear_potion": "恐懼之箭",
+  "item.minecraft.potion.effect.fear_potion": "恐懼藥水",
+  "item.minecraft.potion.effect.long_fear_potion": "恐懼藥水",
+  "item.minecraft.potion.effect.strong_fear_potion": "恐懼藥水",
+  "item.minecraft.splash_potion.effect.fear_potion": "噴濺型恐懼藥水",
+  "item.minecraft.splash_potion.effect.long_fear_potion": "噴濺型恐懼藥水",
+  "item.minecraft.splash_potion.effect.strong_fear_potion": "噴濺型恐懼藥水",
+  "item.minecraft.lingering_potion.effect.fear_potion": "滯留型恐懼藥水",
+  "item.minecraft.lingering_potion.effect.long_fear_potion": "滯留型恐懼藥水",
+  "item.minecraft.lingering_potion.effect.strong_fear_potion": "滯留型恐懼藥水",
+
+  "item.huanle.earth_sword": "大地之劍",
+  "item.huanle.earth_sword.desc": "右鍵: 重擊前方直線，傷害前方實體(冷卻10秒)",
+  "item.huanle.earth_sword.desc2": "蹲下右鍵: 引發地震，震動周圍方塊並對實體造成傷害(冷卻10秒)",
+  "item.huanle.earth_sword.cooldown_earthquake": "地震攻擊正在冷卻中。剩餘：%s 秒",
+  "item.huanle.earth_sword.cooldown_pull": "爆破攻擊正在冷卻中。剩餘：%s 秒",
+
+  "item.huanle.black_gold_katana": "黑金太刀",
+  "item.huanle.black_gold_katana.tooltip": "一把由黑金打造的強力太刀",
+
+  "item.huanle.ender_crystal": "末影水晶",
+  "item.huanle.ender_crystal_apple": "末影水晶蘋果",
+  "item.huanle.ender_crystal_apple.desc": "§6食用後獲得多種強力增益效果，包括末影抗性",
+  "effect.huanle.ender_resistance": "末影抗性",
+  "effect.huanle.ender_resistance.description": "免疫末影龍吐息和末影珍珠的瞬移傷害",
+  
+  "item.huanle.amethyst_apple": "紫水晶蘋果",
+  "item.huanle.amethyst_apple.desc": "§6食用後獲得抗性提升V、傷害吸收IV和生命恢復II效果",
+
+  "item.huanle.fire_god_helmet": "炎神頭盔",
+  "item.huanle.fire_god_chestplate": "炎神胸甲",
+  "item.huanle.fire_god_leggings": "炎神護腿",
+  "item.huanle.fire_god_boots": "炎神靴子",
+  "item.huanle.fire_god_armor.desc": "穿戴全套獲得防火效果，並在熔漿中獲得力量II效果"
+}

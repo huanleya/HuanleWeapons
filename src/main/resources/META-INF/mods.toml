@@ -28,7 +28,7 @@ displayName="${mod_name}" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile= "/assets/huanle/textures/logo2.png" #optional
+logoFile= "/assets/huanle/textures/biaoti.png" #optional
 # A text field displayed in the mod UI
 #credits="" #optional
 # A text field displayed in the mod UI
@@ -43,7 +43,15 @@ authors="huanleya" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-增加了一些武器，附魔，物品
+
+为Minecraft添加了一些武器,附魔,物品.
+
+MC百科:https://www.mcmod.cn/class/20123.html
+
+Modrinth:https://modrinth.com/mod/huanles-weapons
+
+CurseForge:https://www.curseforge.com/minecraft/mc-mods/huanles-weapons
+
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.${mod_id}]] #optional

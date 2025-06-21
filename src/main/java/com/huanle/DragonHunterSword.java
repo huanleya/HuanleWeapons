@@ -36,6 +36,11 @@ public class DragonHunterSword extends SwordItem {
     private static final String LAST_TELEPORT_KEY = "lastTeleport";
     private static final String LAST_TRANSFORM_KEY = "lastTransform";
     private static final String LAST_GLOW_KEY = "lastGlow";
+    private static final String TRANSFORM_COOLDOWN_KEY = "lastTransform";
+    private static final String TELEPORT_COOLDOWN_KEY = "lastTeleport";
+    private static final String GLOW_COOLDOWN_KEY = "lastGlow";
+    private static final String TELEPORT_UNSAFE_KEY = "teleportUnsafe";
+    
     private static final String TRANSFORM_COOLDOWN_MESSAGE_SENT = "transformCooldownMessageSent";
     private static final String TELEPORT_COOLDOWN_MESSAGE_SENT = "teleportCooldownMessageSent";
     private static final String GLOW_COOLDOWN_MESSAGE_SENT = "glowCooldownMessageSent";
@@ -115,12 +120,9 @@ public class DragonHunterSword extends SwordItem {
         
         // 检查60秒冷却
         if (currentTime - lastTransform < 1200) { // 60秒 = 1200 ticks
-            long remainingTime = (1200 - (currentTime - lastTransform)) / 20; // convert ticks to seconds
+            int remainingTime = getRemainingCooldown(level, lastTransform, 1200);
             if (!level.isClientSide) {
-                if (!tag.getBoolean(TRANSFORM_COOLDOWN_MESSAGE_SENT)) {
-                    player.sendSystemMessage(Component.translatable("item.huanle.dragon_hunter_sword.transform_cooldown_time", remainingTime));
-                    tag.putBoolean(TRANSFORM_COOLDOWN_MESSAGE_SENT, true);
-                }
+                player.displayClientMessage(Component.translatable("item.huanle.dragon_hunter_sword.transform_cooldown_time", remainingTime), true);
             }
             return InteractionResultHolder.pass(stack);
         }
@@ -163,17 +165,12 @@ public class DragonHunterSword extends SwordItem {
         
         // 检查5秒冷却
         if (currentTime - lastTeleport < 100) { // 5秒 = 100 ticks
-            long remainingTime = (100 - (currentTime - lastTeleport)) / 20; // convert ticks to seconds
+            int remainingTime = getRemainingCooldown(level, lastTeleport, 100);
             if (!level.isClientSide) {
-                if (!tag.getBoolean(TELEPORT_COOLDOWN_MESSAGE_SENT)) {
-                    player.sendSystemMessage(Component.translatable("item.huanle.dragon_hunter_sword.teleport_cooldown_time", remainingTime));
-                    tag.putBoolean(TELEPORT_COOLDOWN_MESSAGE_SENT, true);
-                }
+                player.displayClientMessage(Component.translatable("item.huanle.dragon_hunter_sword.teleport_cooldown_time", remainingTime), true);
             }
             return InteractionResultHolder.pass(stack);
         }
-
-        tag.putBoolean(TELEPORT_COOLDOWN_MESSAGE_SENT, false);
 
         tag.putBoolean(TELEPORT_UNSAFE_MESSAGE_SENT, false);
         
@@ -214,18 +211,12 @@ public class DragonHunterSword extends SwordItem {
         
         // 检查60秒冷却
         if (currentTime - lastGlow < 1200) { // 60秒 = 1200 ticks
-            long remainingTime = (1200 - (currentTime - lastGlow)) / 20; // convert ticks to seconds
+            int remainingTime = getRemainingCooldown(level, lastGlow, 1200);
             if (!level.isClientSide) {
-                if (!tag.getBoolean(GLOW_COOLDOWN_MESSAGE_SENT)) {
-                    player.sendSystemMessage(Component.translatable("item.huanle.dragon_hunter_sword.glow_cooldown_time", remainingTime));
-                    tag.putBoolean(GLOW_COOLDOWN_MESSAGE_SENT, true);
-                }
+                player.displayClientMessage(Component.translatable("item.huanle.dragon_hunter_sword.glow_cooldown_time", remainingTime), true);
             }
             return InteractionResultHolder.pass(stack);
         }
-
-        // Reset glow cooldown message flag if not on cooldown
-        tag.putBoolean(GLOW_COOLDOWN_MESSAGE_SENT, false);
         
         // 对20x20范围内的实体施加发光效果
         AABB area = new AABB(player.getX() - 10, player.getY() - 10, player.getZ() - 10,
@@ -274,5 +265,11 @@ public class DragonHunterSword extends SwordItem {
             tooltipComponents.add(Component.translatable("item.huanle.dragon_hunter_sword.desc3"));
         }
         super.appendHoverText(stack, level, tooltipComponents, flag);
+    }
+
+    private int getRemainingCooldown(Level level, long lastUsedTime, int cooldownTicks) {
+        long currentTime = level.getGameTime();
+        long elapsedTime = currentTime - lastUsedTime;
+        return Math.max(0, (int)((cooldownTicks - elapsedTime) / 20)); // Convert to seconds
     }
 }

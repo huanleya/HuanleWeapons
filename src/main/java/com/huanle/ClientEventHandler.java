@@ -1,5 +1,10 @@
 package com.huanle;
 
+import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.client.model.geom.builders.CubeDeformation;
+import net.minecraft.client.model.geom.builders.LayerDefinition;
+import net.minecraft.client.model.geom.builders.MeshDefinition;
+import net.minecraft.client.model.geom.builders.PartDefinition;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.client.renderer.entity.ArrowRenderer;
 import net.minecraft.resources.ResourceLocation;
@@ -7,6 +12,8 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.BowItem;
 import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.client.event.EntityRenderersEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.client.event.ComputeFovModifierEvent;
@@ -90,7 +97,14 @@ public class ClientEventHandler {
 
     @SubscribeEvent
     public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
-
+        event.registerLayerDefinition(ModelLayers.FOREST_ARMOR_INNER, () -> {
+            MeshDefinition meshdefinition = HumanoidModel.createMesh(CubeDeformation.NONE, 0.0f);
+            return LayerDefinition.create(meshdefinition, 64, 32);
+        });
+        event.registerLayerDefinition(ModelLayers.FOREST_ARMOR_OUTER, () -> {
+            MeshDefinition meshdefinition = HumanoidModel.createMesh(new CubeDeformation(1.0F), 0.0f);
+            return LayerDefinition.create(meshdefinition, 64, 32);
+        });
     }
 
     @SubscribeEvent

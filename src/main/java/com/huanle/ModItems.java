@@ -1,5 +1,6 @@
 package com.huanle;
 
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Tiers;
@@ -138,4 +139,53 @@ public class ModItems {
             
     public static final RegistryObject<Item> FEAR_TEAR = ITEMS.register("fear_tear",
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
+            
+    public static final RegistryObject<Item> EARTH_SWORD = ITEMS.register("earth_sword",
+            () -> new EarthSword(Tiers.NETHERITE, 15, -2.4F,
+                    new Item.Properties().durability(3000)));
+
+    public static final RegistryObject<Item> FOREST_HELMET = ITEMS.register("forest_helmet",
+            () -> new ForestArmorItem(ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(1000)));
+
+    public static final RegistryObject<Item> FOREST_CHESTPLATE = ITEMS.register("forest_chestplate",
+            () -> new ForestArmorItem(ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(1000)));
+
+    public static final RegistryObject<Item> FOREST_LEGGINGS = ITEMS.register("forest_leggings",
+            () -> new ForestArmorItem(ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(1000)));
+
+    public static final RegistryObject<Item> FOREST_BOOTS = ITEMS.register("forest_boots",
+            () -> new ForestArmorItem(ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(1000)));
+
+    public static final RegistryObject<Item> BLACK_GOLD_KATANA = ITEMS.register("black_gold_katana",
+            () -> new BlackGoldKatana(Tiers.NETHERITE, 4, -2.4F,
+                    new Item.Properties().durability(1500)));
+                    
+    public static final RegistryObject<Item> ENDER_CRYSTAL = ITEMS.register("ender_crystal",
+            () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
+            
+    public static final RegistryObject<Item> ENDER_CRYSTAL_APPLE = ITEMS.register("ender_crystal_apple",
+            () -> new EnderCrystalApple(new Item.Properties().rarity(Rarity.EPIC)));
+            
+    public static final RegistryObject<Item> AMETHYST_APPLE = ITEMS.register("amethyst_apple",
+            () -> new AmethystApple(new Item.Properties().rarity(Rarity.EPIC)));
+            
+    public static final RegistryObject<Item> FIRE_GOD_HELMET = ITEMS.register("fire_god_helmet",
+            () -> new FireGodArmorItem(FireGodArmorMaterial.FIRE_GOD, ArmorItem.Type.HELMET,
+                    new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> FIRE_GOD_CHESTPLATE = ITEMS.register("fire_god_chestplate",
+            () -> new FireGodArmorItem(FireGodArmorMaterial.FIRE_GOD, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> FIRE_GOD_LEGGINGS = ITEMS.register("fire_god_leggings",
+            () -> new FireGodArmorItem(FireGodArmorMaterial.FIRE_GOD, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> FIRE_GOD_BOOTS = ITEMS.register("fire_god_boots",
+            () -> new FireGodArmorItem(FireGodArmorMaterial.FIRE_GOD, ArmorItem.Type.BOOTS,
+                    new Item.Properties().fireResistant()));
 }

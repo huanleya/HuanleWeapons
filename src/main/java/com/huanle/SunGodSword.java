@@ -40,6 +40,9 @@ public class SunGodSword extends SwordItem {
     public @Nonnull InteractionResultHolder<ItemStack> use(@Nonnull Level level, @Nonnull Player player, @Nonnull InteractionHand hand) {
         ItemStack itemstack = player.getItemInHand(hand);
         if (!level.isClientSide) {
+            // 给玩家添加急迫II效果，持续5秒(100刻)
+            player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 100, 1, false, false));
+            
             AABB aabb = player.getBoundingBox().inflate(16.0D);
             List<LivingEntity> entities = level.getEntitiesOfClass(LivingEntity.class, aabb);
             
@@ -58,6 +61,7 @@ public class SunGodSword extends SwordItem {
     public void appendHoverText(@Nonnull ItemStack stack, @Nullable Level level, @Nonnull List<Component> tooltipComponents, @Nonnull TooltipFlag flag) {
         tooltipComponents.add(Component.translatable("item.huanle.sun_god_sword.desc"));
         tooltipComponents.add(Component.translatable("item.huanle.sun_god_sword.desc2"));
+        tooltipComponents.add(Component.translatable("item.huanle.sun_god_sword.desc3"));
         super.appendHoverText(stack, level, tooltipComponents, flag);
     }
 }

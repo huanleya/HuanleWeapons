@@ -8,7 +8,7 @@
   "item.huanle.green_dragon_sword.desc3": "攻击命中后10%恢复2点生命值",
 
   "item.huanle.sun_god_sword": "太阳神剑",
-  "item.huanle.sun_god_sword.desc": "右键释放范围技能",
+  "item.huanle.sun_god_sword.desc": "右键释放范围技能,并获得5秒急迫II效果",
   "item.huanle.sun_god_sword.desc2": "造成5点伤害，范围为16x16格,并燃烧实体",
 
   "item.huanle.throwing_axe": "投掷斧",
@@ -17,7 +17,7 @@
 
   "enchantment.huanle.lightning_strike": "附雷",
   "enchantment.huanle.lightning_strike.desc": "攻击实体时会落下闪电，等级越高落下的闪电越多，可用于剑、三叉戟和斧头",
-  
+
   "enchantment.huanle.quick_draw": "快速拉弓",
   "enchantment.huanle.quick_draw.desc": "每级减少拉弓时间0.3秒",
 
@@ -27,6 +27,7 @@
   "itemGroup.huanle_tab": "huanle的武器",
   "itemGroup.huanle_materials_tab": "huanle的武器:材料",
   "itemGroup.huanle_blocks_tab": "huanle的武器:方块",
+  "itemGroup.huanle_armor_tab": "huanle的武器:盔甲",
 
   "item.huanle.ender_sword": "末影之剑",
   "item.huanle.ender_sword.desc": "右键可以丢出末影珍珠",
@@ -40,7 +41,7 @@
   "item.huanle.flame_bow": "烈焰弓",
   "item.huanle.flame_bow.desc": "只能使用烈焰箭射击",
   "item.huanle.flame_arrow": "烈焰箭",
-  
+
   "advancements.huanle.flame_bow.title": "烈焰射手",
   "advancements.huanle.flame_bow.description": "获得一把烈焰弓",
   "advancements.huanle.huanle_sword.title": "终焉剑士",
@@ -51,6 +52,7 @@
 
   "item.huanle.magic_crystal": "魔力水晶",
   "block.huanle.magic_crystal_ore": "魔力水晶矿石",
+  "block.huanle.ender_crystal_ore": "末影水晶矿石",
 
   "item.huanle.lava_ingot": "熔岩锭",
 
@@ -73,7 +75,7 @@
 
   "effect.huanle.freezing": "冻伤",
   "effect.huanle.freezing.desc": "每级降低30%移动速度，并持续造成0.5点魔法伤害",
-  
+
   "item.huanle.blue_flame_sword": "蓝焰剑",
   "item.huanle.blue_flame_sword.desc": "手持获得防火效果",
   "item.huanle.blue_flame_sword.desc2": "攻击命中时增加目标燃烧时间5秒",
@@ -115,6 +117,9 @@
   "effect.huanle.bleeding": "失血",
   "effect.huanle.bleeding.desc": "持续造成魔法伤害",
 
+  "effect.huanle.fear": "恐惧",
+  "effect.huanle.fear.desc": "阻止任何生命恢复，包括饥饿值、饱和度回血、生命恢复效果和瞬间治疗效果",
+
   "advancements.huanle.death_scythe.title": "死亡收割者",
   "advancements.huanle.death_scythe.description": "获得一把死亡之镰",
 
@@ -125,7 +130,7 @@
   "advancements.huanle.looting_dagger.description": "获得一把抢夺匕首",
 
   "item.huanle.fire_god_ingot": "炎神锭",
-  
+
   "item.huanle.fire_god_dagger": "炎神匕首",
   "item.huanle.fire_god_dagger.desc": "手持获得防火buff",
   "item.huanle.fire_god_dagger.desc2": "攻击实体时，使实体着火10秒",
@@ -189,13 +194,16 @@
   "item.huanle.forest_shovel": "森林铲",
   "item.huanle.forest_shovel.desc": "攻击敌人时会使其中毒",
 
+  "item.huanle.forest_helmet": "森林头盔",
+  "item.huanle.forest_chestplate": "森林胸甲",
+  "item.huanle.forest_leggings": "森林护腿",
+  "item.huanle.forest_boots": "森林靴子",
+  "item.huanle.forest_armor.desc": "穿戴全套在水中获得生命恢复II效果",
+
   "item.huanle.magic_crystal_apple": "魔力水晶苹果",
   "item.huanle.magic_crystal_apple.desc": "§6食用后获得多种增益效果",
 
   "item.huanle.fear_tear": "恐惧之泪",
-  "effect.huanle.fear": "恐惧",
-  "effect.huanle.fear.desc": "阻止所有形式的生命恢复，包括食物回血、生命恢复效果和瞬间治疗。II级或更高级别时，还会阻止饱食度恢复",
-
   "item.minecraft.tipped_arrow.effect.fear_potion": "恐惧之箭",
   "item.minecraft.tipped_arrow.effect.long_fear_potion": "恐惧之箭",
   "item.minecraft.tipped_arrow.effect.strong_fear_potion": "恐惧之箭",
@@ -205,7 +213,31 @@
   "item.minecraft.splash_potion.effect.fear_potion": "喷溅型恐惧药水",
   "item.minecraft.splash_potion.effect.long_fear_potion": "喷溅型恐惧药水",
   "item.minecraft.splash_potion.effect.strong_fear_potion": "喷溅型恐惧药水",
-  "item.minecraft.lingering_potion.effect.fear_potion": "滞留型恐惧药水",
-  "item.minecraft.lingering_potion.effect.long_fear_potion": "滞留型恐惧药水",
-  "item.minecraft.lingering_potion.effect.strong_fear_potion": "滞留型恐惧药水"
+  "item.minecraft.lingering_potion.effect.fear_potion": "滯留型恐惧药水",
+  "item.minecraft.lingering_potion.effect.long_fear_potion": "滯留型恐惧药水",
+  "item.minecraft.lingering_potion.effect.strong_fear_potion": "滯留型恐惧药水",
+
+  "item.huanle.earth_sword": "大地之剑",
+  "item.huanle.earth_sword.desc": "右键: 重击前方直线，伤害前方实体(冷却10秒)",
+  "item.huanle.earth_sword.desc2": "蹲下右键: 引发地震，震动周围方块并对实体造成伤害(冷却10秒)",
+  "item.huanle.earth_sword.cooldown_earthquake": "地震攻击正在冷却中。剩余：%s 秒",
+  "item.huanle.earth_sword.cooldown_pull": "爆破攻击正在冷却中。剩余：%s 秒",
+
+  "item.huanle.black_gold_katana": "黑金太刀",
+  "item.huanle.black_gold_katana.tooltip": "一把由黑金打造的强力太刀",
+
+  "item.huanle.ender_crystal": "末影水晶",
+  "item.huanle.ender_crystal_apple": "末影水晶苹果",
+  "item.huanle.ender_crystal_apple.desc": "§6食用后获得多种强力增益效果，包括末影抗性",
+  "effect.huanle.ender_resistance": "末影抗性",
+  "effect.huanle.ender_resistance.description": "免疫末影龙吐息和末影珍珠的瞬移伤害",
+  
+  "item.huanle.amethyst_apple": "紫水晶苹果",
+  "item.huanle.amethyst_apple.desc": "§6食用后获得抗性提升V、伤害吸收IV和生命恢复II效果",
+
+  "item.huanle.fire_god_helmet": "炎神头盔",
+  "item.huanle.fire_god_chestplate": "炎神胸甲",
+  "item.huanle.fire_god_leggings": "炎神护腿",
+  "item.huanle.fire_god_boots": "炎神靴子",
+  "item.huanle.fire_god_armor.desc": "穿戴全套获得防火效果，并在熔浆中获得力量II效果"
 }

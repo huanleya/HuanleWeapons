@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "huanle:forest_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "item": "huanle:forest_leggings"
+  },
+  "template": {
+    "item": "huanle:forest_smithing_template"
+  }
+}

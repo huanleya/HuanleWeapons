@@ -11,4 +11,5 @@ public class ModEffects {
     public static final RegistryObject<MobEffect> FREEZING = EFFECTS.register("freezing", FreezingEffect::new);
     public static final RegistryObject<MobEffect> BLEEDING = EFFECTS.register("bleeding", BleedingEffect::new);
     public static final RegistryObject<MobEffect> FEAR = EFFECTS.register("fear", FearEffect::new);
+    public static final RegistryObject<MobEffect> ENDER_RESISTANCE = EFFECTS.register("ender_resistance", EnderResistanceEffect::new);
 }
