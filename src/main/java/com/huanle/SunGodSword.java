@@ -61,7 +61,6 @@ public class SunGodSword extends SwordItem {
     public void appendHoverText(@Nonnull ItemStack stack, @Nullable Level level, @Nonnull List<Component> tooltipComponents, @Nonnull TooltipFlag flag) {
         tooltipComponents.add(Component.translatable("item.huanle.sun_god_sword.desc"));
         tooltipComponents.add(Component.translatable("item.huanle.sun_god_sword.desc2"));
-        tooltipComponents.add(Component.translatable("item.huanle.sun_god_sword.desc3"));
         super.appendHoverText(stack, level, tooltipComponents, flag);
     }
 }

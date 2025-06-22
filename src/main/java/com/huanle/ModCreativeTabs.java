@@ -97,6 +97,7 @@ public class ModCreativeTabs {
                 output.accept(ModBlockItems.MAGIC_CRYSTAL_ORE_ITEM.get());
                 output.accept(ModBlockItems.DEEPSLATE_MAGIC_CRYSTAL_ORE_ITEM.get());
                 output.accept(ModBlockItems.ENDER_CRYSTAL_ORE_ITEM.get());
+                output.accept(ModBlockItems.ENDER_CRYSTAL_BLOCK_ITEM.get());
             })
             .build());
 

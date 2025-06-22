@@ -26,6 +26,8 @@ public class ModBlockItems {
     public static final RegistryObject<Item> ENDER_CRYSTAL_ORE_ITEM = BLOCK_ITEMS.register("ender_crystal_ore",
             () -> new BlockItem(ModBlocks.ENDER_CRYSTAL_ORE.get(), new Item.Properties()));
             
+    public static final RegistryObject<Item> ENDER_CRYSTAL_BLOCK_ITEM = BLOCK_ITEMS.register("ender_crystal_block",
+            () -> new BlockItem(ModBlocks.ENDER_CRYSTAL_BLOCK.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         BLOCK_ITEMS.register(eventBus);

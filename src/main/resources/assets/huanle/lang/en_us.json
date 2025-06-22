@@ -237,5 +237,7 @@
   "item.huanle.fire_god_chestplate": "Fire God Chestplate",
   "item.huanle.fire_god_leggings": "Fire God Leggings",
   "item.huanle.fire_god_boots": "Fire God Boots",
-  "item.huanle.fire_god_armor.desc": "Wearing the full set grants Fire Resistance and Strength II effect in lava"
+  "item.huanle.fire_god_armor.desc": "Wearing the full set grants Fire Resistance and Strength II effect in lava",
+  
+  "block.huanle.ender_crystal_block": "Ender Crystal Block"
 }

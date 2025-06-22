@@ -57,4 +57,15 @@ public class ModBlocks {
                     .sound(SoundType.STONE)
                     .lightLevel(state -> 0) // 轻微发光效果
             ));
+            
+    // 末影水晶方块 - 用末影水晶合成的方块
+    public static final RegistryObject<Block> ENDER_CRYSTAL_BLOCK = BLOCKS.register("ender_crystal_block", 
+            () -> new Block(
+                BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_PURPLE) // 紫色调
+                    .requiresCorrectToolForDrops()
+                    .strength(5.0F, 6.0F) // 与钻石块相似的硬度
+                    .sound(SoundType.AMETHYST)
+                    .lightLevel(state -> 10) // 较强的发光效果
+            ));
 }

@@ -1,0 +1,241 @@
+{
+  "enchantment.huanle.lava_walker": "Lavawalker",
+  "item.huanle.huanle_sword": "Endes Schwert",
+
+  "item.huanle.green_dragon_sword": "Grünes Drachenschwert",
+  "item.huanle.green_dragon_sword.desc": "Vergiftet Gegner für 5 Sekunden bei Treffer",
+  "item.huanle.green_dragon_sword.desc2": "20% Chance, vorübergehende Geschwindigkeitssteigerung zu erhalten",
+  "item.huanle.green_dragon_sword.desc3": "Wiederherstellung von 2 Lebenspunkten nach Treffer mit 10% Wahrscheinlichkeit",
+
+  "item.huanle.sun_god_sword": "Sonnengottschwert",
+  "item.huanle.sun_god_sword.desc": "Rechtsklick zum Aktivieren eines Bereichs-Skills und Erhalt des Haste II Effekts für 5 Sekunden",
+  "item.huanle.sun_god_sword.desc2": "Verursacht 5 Schaden in einem 16x16 Blockbereich und zündet Entitäten an",
+
+  "item.huanle.throwing_axe": "Wurfschlagaxt",
+  "item.huanle.throwing_axe.desc": "Rechtsklick zum Werfen der Axt",
+  "item.huanle.throwing_axe.charge": "Halte Rechtsklick gedrückt, um aufzuladen, je länger geladen, desto weiter fliegt die Axt",
+
+  "enchantment.huanle.lightning_strike": "Blitzschlag",
+  "enchantment.huanle.lightning_strike.desc": "Ruft Blitz herbei beim Treffen einer Entität, mehr Blitze bei höheren Stufen. Funktioniert auf Schwertern, Tridents und Äxten",
+
+  "enchantment.huanle.quick_draw": "Schneller Zug",
+  "enchantment.huanle.quick_draw.desc": "Reduziert den Bogen-Ziehzeit um 0,3 Sekunden pro Stufe",
+
+  "entity.huanle.throwing_axe": "Wurfschlagaxt",
+
+  "itemGroup.huanle_tab": "Huanles Waffen",
+  "itemGroup.huanle_materials_tab": "Huanles Waffen: Materialien",
+  "itemGroup.huanle_blocks_tab": "Huanles Waffen: Blöcke",
+  "itemGroup.huanle_armor_tab": "Huanles Waffen: Rüstungen",
+
+  "item.huanle.ender_sword": "Ender-Schwert",
+  "item.huanle.ender_sword.desc": "Rechtsklick zum Werfen einer Enderperle",
+  "item.huanle.ender_sword.desc2": "20% Chance, zusätzlichen Schaden zu verursachen und Schwäche-Buff anzuwenden",
+
+  "advancements.huanle.ender_sword.title": "Ender-Schwertschmied",
+  "advancements.huanle.ender_sword.description": "Erhalte ein Ender-Schwert",
+  "advancements.huanle.sun_god_sword.title": "Sonnengott-Schwertschmied",
+  "advancements.huanle.sun_god_sword.description": "Erhalte ein Sonnengott-Schwert",
+
+  "item.huanle.flame_bow": "Flammenbogen",
+  "item.huanle.flame_bow.desc": "Kann nur Flammenpfeile abfeuern",
+  "item.huanle.flame_arrow": "Flammenpfeil",
+
+  "advancements.huanle.flame_bow.title": "Flammenbogenschütze",
+  "advancements.huanle.flame_bow.description": "Erhalte einen Flammenbogen",
+  "advancements.huanle.huanle_sword.title": "Endes Schwertschmied",
+  "advancements.huanle.huanle_sword.description": "Erhalte ein Endes Schwert",
+
+  "advancements.huanle.root.title": "Entdecker des Magischen Kristalls",
+  "advancements.huanle.root.description": "Bereite einen magischen Kristall ab",
+
+  "item.huanle.magic_crystal": "Magischer Kristall",
+  "block.huanle.magic_crystal_ore": "Magischer Kristallerz",
+  "block.huanle.ender_crystal_ore": "Ender-Kristallerz",
+
+  "item.huanle.lava_ingot": "Lavestab",
+
+  "item.huanle.lava_sword": "Lavenschwert",
+  "item.huanle.lava_sword.desc": "Zündet Entitäten an beim Angriff",
+
+  "advancements.huanle.lava_sword.title": "Lavenschwertschmied",
+  "advancements.huanle.lava_sword.description": "Erhalte ein Lavenschwert",
+
+  "block.huanle.deepslate_magic_crystal_ore": "Tiefschiefer-Magischer Kristallerz",
+  "block.huanle.magic_crystal_block": "Magischer Kristallblock",
+
+  "item.huanle.moonlight_sword": "Mondlichtschwert",
+  "item.huanle.moonlight_sword.desc": "Rechtsklick zum Abschießen eines blauen Halbmondbogens (Cooldown 2 Sekunden)",
+  "item.huanle.moonlight_sword.desc2": "Frierzt Ziele getroffen vom Bogen für 10 Sekunden ein",
+
+  "item.huanle.moon_crescent_sword": "Neumondsäbel",
+  "item.huanle.moon_crescent_sword.desc": "Gibt Widerstand während des Tragens",
+  "item.huanle.moon_crescent_sword.desc2": "Verlangsamt angreifende Ziele",
+
+  "effect.huanle.freezing": "Einfrieren",
+  "effect.huanle.freezing.desc": "Reduziert Bewegungsgeschwindigkeit um 30% pro Stufe und verursacht im Laufe der Zeit 0,5 Zauber-Schaden",
+
+  "item.huanle.blue_flame_sword": "Blauer Flammensäbel",
+  "item.huanle.blue_flame_sword.desc": "Gibt Feuerwiderstand während des Tragens",
+  "item.huanle.blue_flame_sword.desc2": "Erhöht Brenndauer um 5 Sekunden bei Treffer",
+  "item.huanle.blue_flame_sword.desc3": "Verursacht vierfachen Schaden an brennenden Zielen",
+
+  "item.huanle.ender_hammer": "Ender-Hammer",
+  "item.huanle.ender_hammer.desc": "Kann einen 3x3 Blockbereich abbauen",
+  "item.huanle.ender_hammer.desc2": "20% Chance, Gegner zu betäuben",
+
+  "advancements.huanle.green_dragon_sword.title": "Grüner Drache enthüllt",
+  "advancements.huanle.green_dragon_sword.description": "Erhalte ein grünes Drachenschwert",
+
+  "advancements.huanle.moon_crescent_sword.title": "Neumondklinge",
+  "advancements.huanle.moon_crescent_sword.description": "Erhalte einen Neumondsäbel",
+
+  "advancements.huanle.moonlight_sword.title": "Glänzendes Mondlicht",
+  "advancements.huanle.moonlight_sword.description": "Erhalte ein Mondlichtschwert",
+
+  "advancements.huanle.blue_flame_sword.title": "Azurflamme",
+  "advancements.huanle.blue_flame_sword.description": "Erhalte einen blauen Flammensäbel",
+
+  "advancements.huanle.ender_hammer.title": "Ender-Zerstörer",
+  "advancements.huanle.ender_hammer.description": "Erhalte einen Ender-Hammer",
+
+  "item.huanle.forest_blade": "Waldklinge",
+  "item.huanle.forest_blade.desc": "Gibt Regeneration unter Wasser beim Tragen",
+  "item.huanle.forest_blade.desc2": "30% Chance, Wither II Effekt für 5 Sekunden auf Treffer anzuwenden",
+  "item.huanle.forest_blade.desc3": "3% Chance, Gesundheit vollständig beim Treffen wiederherzustellen",
+  "item.huanle.forest_blade.desc4": "Crouch-Rechtsklick verbraucht 10 Gesundheit für Strength II Effekt für 10 Sekunden",
+
+  "advancements.huanle.forest_blade.title": "Wächter des Waldes",
+  "advancements.huanle.forest_blade.description": "Erhalte eine Waldklinge",
+
+  "item.huanle.death_scythe": "Todesgabel",
+  "item.huanle.death_scythe.desc": "Saugt 4 Lebenspunkte von Gegnern beim Treffen",
+  "item.huanle.death_scythe.desc2": "5% Chance, Blutungs-Effekt auszulösen (entfernt 30% aktuelle Gesundheit und verursacht kontinuierlichen Schaden)",
+  "item.huanle.death_scythe.desc3": "Crouch-Rechtsklick verbraucht 10 Gesundheit und wendet Wither II Effekt für 8 Sekunden auf Gegner an",
+
+  "effect.huanle.bleeding": "Bluten",
+  "effect.huanle.bleeding.desc": "Verursacht kontinuierlichen Zauber-Schaden",
+
+  "effect.huanle.fear": "Angst",
+  "effect.huanle.fear.desc": "Verhindert jede Form der Heilung, einschließlich Hunger-Wiederherstellung, Sättigung, Regenerations-Effekte und sofortige Gesundheitswiederherstellung",
+
+  "advancements.huanle.death_scythe.title": "Scherer des Todes",
+  "advancements.huanle.death_scythe.description": "Erhalte eine Todesgabel",
+
+  "item.huanle.looting_dagger": "Beutelmeser",
+  "item.huanle.looting_dagger.desc": "Kommt mit Fortune V Verzauberung, erhöht Beute-Drop-Raten",
+
+  "advancements.huanle.looting_dagger.title": "Beuterauber",
+  "advancements.huanle.looting_dagger.description": "Erhalte ein Beutelmeser",
+
+  "item.huanle.fire_god_ingot": "Feuergott-Ingot",
+
+  "item.huanle.fire_god_dagger": "Feuergott-Dolch",
+  "item.huanle.fire_god_dagger.desc": "Gibt Feuerwiderstand während des Tragens",
+  "item.huanle.fire_god_dagger.desc2": "Zündet Entitäten für 10 Sekunden an beim Treffen",
+
+  "advancements.huanle.fire_god_dagger.title": "Bote des Feuergotts",
+  "advancements.huanle.fire_god_dagger.description": "Erhalte einen Feuergott-Dolch",
+
+  "item.huanle.life_staff": "Lebensstab",
+  "item.huanle.life_staff.desc": "Rechtsklick zur Wiederherstellung von 6 Lebenspunkten",
+  "item.huanle.life_staff.desc2": "Cooldown beträgt 60 Sekunden",
+  "item.huanle.life_staff.desc3": "Jede Nutzung verbraucht 5 Haltbarkeit",
+
+  "advancements.huanle.lava_ingot.title": "Geschmolzenes Metall",
+  "advancements.huanle.lava_ingot.description": "Erhalte einen Lavestab",
+
+  "advancements.huanle.fire_god_ingot.title": "Essenz des Feuergotts",
+  "advancements.huanle.fire_god_ingot.description": "Herstellen eines Feuergott-Ingot",
+
+  "item.huanle.dragon_hunter_sword": "Drachenjägerschwert",
+  "item.huanle.dragon_hunter_sword.desc": "Rechtsklick zum Teleportieren 8 Blöcke entfernt (Cooldown 5 Sekunden)",
+  "item.huanle.dragon_hunter_sword.desc2": "Crouch-Rechtsklick zum Wechseln der Form (Cooldown 60 Sekunden)",
+  "item.huanle.dragon_hunter_sword.desc3": "Wechseln der Form gewährt Strength II und Speed II Effekte für 30 Sekunden",
+
+  "item.huanle.awakened_dragon_hunter_sword": "Erwecktes Drachenjägerschwert",
+  "item.huanle.awakened_dragon_hunter_sword.desc": "Schwert hat Ender-Partikeleffekte",
+  "item.huanle.awakened_dragon_hunter_sword.desc2": "20% Chance, zusätzlichen Schaden zu verursachen und Schwäche-Effekt anzuwenden",
+  "item.huanle.awakened_dragon_hunter_sword.desc3": "Rechtsklick zum Anwenden des Leuchtenden Effekts auf Entitäten innerhalb eines 20x20 Bereichs (Cooldown 60 Sekunden)",
+  "item.huanle.awakened_dragon_hunter_sword.desc4": "Verursacht doppelten Schaden an leuchtenden Entitäten",
+
+  "advancements.huanle.dragon_hunter_sword.title": "Drachenjäger-Schwertschmied",
+  "advancements.huanle.dragon_hunter_sword.description": "Erhalte ein Drachenjägerschwert",
+
+  "item.huanle.dragon_hunter_sword.transform_cooldown_time": "Formwechsel im Cooldown, noch %s Sekunden übrig...",
+  "item.huanle.dragon_hunter_sword.transformed_awakened": "Du hast dich in die erwachte Form gewechselt!",
+  "item.huanle.dragon_hunter_sword.transformed_normal": "Du bist zurück zur normalen Form gewechselt.",
+  "item.huanle.dragon_hunter_sword.glow_success": "Du hast den Leuchtenden Effekt erfolgreich angewendet!",
+  "item.huanle.dragon_hunter_sword.teleport_cooldown_time": "Teleportations-Fertigkeit im Cooldown, noch %s Sekunden übrig...",
+  "item.huanle.dragon_hunter_sword.teleport_success": "Du hast dich erfolgreich teleportiert!",
+  "item.huanle.dragon_hunter_sword.teleport_unsafe": "Ungesicherte Teleportationsposition!",
+  "item.huanle.dragon_hunter_sword.glow_cooldown_time": "Leuchtender Skill im Cooldown, noch %s Sekunden übrig...",
+
+  "item.huanle.flame_god_smithing_template": "Feuergott-Schmiedevorlage",
+  "item.huanle.flame_god_axe": "Feuergott-Axt",
+  "item.huanle.flame_god_axe.desc": "Eine mächtige Axt geschmiedet mit Feuergott-Ingot",
+  "item.huanle.flame_god_pickaxe": "Feuergott-Pickaxe",
+  "item.huanle.flame_god_pickaxe.desc": "Eine mächtige Pickaxe geschmiedet mit Feuergott-Ingot",
+  "item.huanle.flame_god_hoe": "Feuergott-Hacke",
+  "item.huanle.flame_god_hoe.desc": "Eine mächtige Hacke geschmiedet mit Feuergott-Ingot",
+  "item.huanle.flame_god_shovel": "Feuergott-Schaufel",
+  "item.huanle.flame_god_shovel.desc": "Eine mächtige Schaufel geschmiedet mit Feuergott-Ingot",
+
+  "item.huanle.forest_smithing_template": "Wald-Schmiedevorlage",
+  "item.huanle.forest_ingot": "Wald-Ingot",
+  "item.huanle.forest_axe": "Wald-Axt",
+  "item.huanle.forest_axe.desc": "Vergiftet Gegner beim Angriff",
+  "item.huanle.forest_pickaxe": "Wald-Pickaxe",
+  "item.huanle.forest_pickaxe.desc": "Vergiftet Gegner beim Angriff",
+  "item.huanle.forest_hoe": "Wald-Hacke",
+  "item.huanle.forest_hoe.desc": "Vergiftet Gegner beim Angriff",
+  "item.huanle.forest_shovel": "Wald-Schaufel",
+  "item.huanle.forest_shovel.desc": "Vergiftet Gegner beim Angriff",
+
+  "item.huanle.forest_helmet": "Wald-Helm",
+  "item.huanle.forest_chestplate": "Wald-Chestplate",
+  "item.huanle.forest_leggings": "Wald-Leggings",
+  "item.huanle.forest_boots": "Wald-Stiefel",
+  "item.huanle.forest_armor.desc": "Tragen des kompletten Sets gewährt Regeneration II Effekt unter Wasser",
+
+  "item.huanle.magic_crystal_apple": "Magischer Kristallapfel",
+  "item.huanle.magic_crystal_apple.desc": "§6Nach dem Essen verschiedene Buffs erhalten",
+
+  "item.huanle.fear_tear": "Tear of Fear",
+  "item.minecraft.tipped_arrow.effect.fear_potion": "Fear Arrow",
+  "item.minecraft.tipped_arrow.effect.long_fear_potion": "Long-lasting Fear Arrow",
+  "item.minecraft.tipped_arrow.effect.strong_fear_potion": "Strong Fear Arrow",
+  "item.minecraft.potion.effect.fear_potion": "Fear Potion",
+  "item.minecraft.potion.effect.long_fear_potion": "Long-lasting Fear Potion",
+  "item.minecraft.potion.effect.strong_fear_potion": "Strong Fear Potion",
+  "item.minecraft.splash_potion.effect.fear_potion": "Splash Fear Potion",
+  "item.minecraft.splash_potion.effect.long_fear_potion": "Long-lasting Splash Fear Potion",
+  "item.minecraft.splash_potion.effect.strong_fear_potion": "Strong Splash Fear Potion",
+  "item.minecraft.lingering_potion.effect.fear_potion": "Lingering Fear Potion",
+  "item.minecraft.lingering_potion.effect.long_fear_potion": "Long-lasting Lingering Fear Potion",
+  "item.minecraft.lingering_potion.effect.strong_fear_potion": "Strong Lingering Fear Potion",
+
+  "item.huanle.earth_sword": "Erdschwert",
+  "item.huanle.earth_sword.desc": "Rechtsklick: Schwerer Schlag vorne, schadet benachbarten Entitäten (Cooldown 10 Sekunden)",
+  "item.huanle.earth_sword.desc2": "Crouch-Rechtsklick: Verursacht Erdbeben, erschüttert umliegende Blöcke und schadet Entitäten (Cooldown 10 Sekunden)",
+  "item.huanle.earth_sword.cooldown_earthquake": "Erdbebenschlag im Cooldown. Noch: %s Sekunden",
+  "item.huanle.earth_sword.cooldown_pull": "Explosionsschlag im Cooldown. Noch: %s Sekunden",
+
+  "item.huanle.black_gold_katana": "Schwarzes Gold Katana",
+  "item.huanle.black_gold_katana.tooltip": "Ein mächtiges Katana geschmiedet mit Schwarzem Gold",
+
+  "item.huanle.ender_crystal": "Ender-Kristall",
+  "item.huanle.ender_crystal_apple": "Ender-Kristallapfel",
+  "item.huanle.ender_crystal_apple.desc": "§6Nach dem Essen mehrere starke Buffs erhalten, einschließlich Ender-Widerstand",
+  "effect.huanle.ender_resistance": "Ender-Widerstand",
+  "effect.huanle.ender_resistance.description": "Immun gegen Enderdrache-Atem und Teleport-Schaden von Enderperlen",
+  
+  "item.huanle.amethyst_apple": "Amethystapfel",
+  "item.huanle.amethyst_apple.desc": "§6Nach dem Essen Widerstand V, Absorption IV und Regeneration II Effekte erhalten",
+
+  "item.huanle.fire_god_helmet": "Feuergott-Helm",
+  "item.huanle.fire_god_chestplate": "Feuergott-Chestplate",
+  "item.huanle.fire_god_leggings": "Feuergott-Leggings",
+  "item.huanle.fire_god_boots": "Feuergott-Stiefel",
+  "item.huanle.fire_god_armor.desc": "Tragen des kompletten Sets gewährt Feuerwiderstand und Strength II Effekt in Lava"
+}

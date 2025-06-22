@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "huanle:ender_crystal_block"
+    }
+  ],
+  "result": {
+    "item": "huanle:ender_crystal",
+    "count": 9
+  }
+}

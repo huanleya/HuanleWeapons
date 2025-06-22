@@ -1,5 +1,4 @@
 {
-  "enchantment.huanle.lava_walker": "熔岩行者",
   "item.huanle.huanle_sword": "终焉剑",
 
   "item.huanle.green_dragon_sword": "青龙剑",
@@ -227,6 +226,7 @@
   "item.huanle.black_gold_katana.tooltip": "一把由黑金打造的强力太刀",
 
   "item.huanle.ender_crystal": "末影水晶",
+  "block.huanle.ender_crystal_block": "末影水晶块",
   "item.huanle.ender_crystal_apple": "末影水晶苹果",
   "item.huanle.ender_crystal_apple.desc": "§6食用后获得多种强力增益效果，包括末影抗性",
   "effect.huanle.ender_resistance": "末影抗性",

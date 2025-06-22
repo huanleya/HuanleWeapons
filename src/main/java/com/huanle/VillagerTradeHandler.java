@@ -14,19 +14,6 @@ import net.minecraftforge.fml.common.Mod;
 public class VillagerTradeHandler {
     @SubscribeEvent
     public static void onVillagerTrades(VillagerTradesEvent event) {
-        if (event.getType() == net.minecraft.world.entity.npc.VillagerProfession.LIBRARIAN) {
-            VillagerTrades.ItemListing lavaWalkerBook = (entity, random) -> {
-                ItemStack book = EnchantedBookItem.createForEnchantment(
-                    new EnchantmentInstance(ModEnchantments.LAVA_WALKER.get(), 1)
-                );
-                return new MerchantOffer(
-                    new ItemStack(Items.EMERALD, 30), // 价格可调整
-                    new ItemStack(Items.BOOK),
-                    book,
-                    5, 30, 0.2F
-                );
-            };
-            event.getTrades().get(5).add(lavaWalkerBook); // 5级图书管理员
-        }
+        // 预留给未来添加其他交易
     }
 } 

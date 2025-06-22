@@ -14,10 +14,6 @@ public class ModEnchantments {
 
     public static final RegistryObject<Enchantment> LIGHTNING_STRIKE = ENCHANTMENTS.register(
             "lightning_strike", LightningEnchantment::new);
-            
-
-    public static final RegistryObject<Enchantment> LAVA_WALKER = ENCHANTMENTS.register(
-            "lava_walker", LavaWalkerEnchantment::new);
 
     public static final RegistryObject<Enchantment> QUICK_DRAW = ENCHANTMENTS.register(
             "quick_draw", QuickDrawEnchantment::new);
