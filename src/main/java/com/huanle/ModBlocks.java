@@ -1,5 +1,7 @@
 package com.huanle;
 
+import com.huanle.blocks.*;
+import com.huanle.blocks.GrinderBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -23,7 +25,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .strength(5.0F, 6.0F)
                     .sound(SoundType.STONE),
-                UniformInt.of(3, 7)  // 掉落经验值范围
+                UniformInt.of(3, 7)
             ));
             
 
@@ -32,9 +34,9 @@ public class ModBlocks {
                 BlockBehaviour.Properties.of()
                     .mapColor(MapColor.DEEPSLATE)
                     .requiresCorrectToolForDrops()
-                    .strength(6.0F, 7.0F)  // 比普通版本更硬
+                    .strength(6.0F, 7.0F)
                     .sound(SoundType.DEEPSLATE),
-                UniformInt.of(4, 8)  // 掉落经验值范围稍高
+                UniformInt.of(4, 8)
             ));
 
     public static final RegistryObject<Block> MAGIC_CRYSTAL_BLOCK = BLOCKS.register("magic_crystal_block", 
@@ -44,28 +46,35 @@ public class ModBlocks {
                     .strength(5.0F, 6.0F)
                     .sound(SoundType.AMETHYST)
                     .requiresCorrectToolForDrops()
-                    .lightLevel(state -> 7)  // 发光效果
+                    .lightLevel(state -> 7)
             ));
-            
-    // 末影水晶矿石 - 与钻石矿石相似的硬度和稀有度
+
     public static final RegistryObject<Block> ENDER_CRYSTAL_ORE = BLOCKS.register("ender_crystal_ore", 
             () -> new EnderCrystalOreBlock(
                 BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.COLOR_PURPLE) // 紫色调
+                    .mapColor(MapColor.COLOR_PURPLE)
                     .requiresCorrectToolForDrops()
-                    .strength(5.0F, 6.0F) // 与钻石矿石相同的硬度
+                    .strength(5.0F, 6.0F)
                     .sound(SoundType.STONE)
-                    .lightLevel(state -> 0) // 轻微发光效果
+                    .lightLevel(state -> 0)
             ));
-            
-    // 末影水晶方块 - 用末影水晶合成的方块
+
     public static final RegistryObject<Block> ENDER_CRYSTAL_BLOCK = BLOCKS.register("ender_crystal_block", 
             () -> new Block(
                 BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.COLOR_PURPLE) // 紫色调
+                    .mapColor(MapColor.COLOR_PURPLE)
                     .requiresCorrectToolForDrops()
-                    .strength(5.0F, 6.0F) // 与钻石块相似的硬度
+                    .strength(5.0F, 6.0F)
                     .sound(SoundType.AMETHYST)
-                    .lightLevel(state -> 10) // 较强的发光效果
+                    .lightLevel(state -> 10)
+            ));
+
+    public static final RegistryObject<Block> GRINDER = BLOCKS.register("grinder",
+            () -> new GrinderBlock(
+                BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.METAL)
+                    .requiresCorrectToolForDrops()
+                    .strength(3.5F, 3.5F)
+                    .sound(SoundType.METAL)
             ));
 }
