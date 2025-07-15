@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "huanle:fire_god_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "result": {
+    "item": "huanle:fire_god_chestplate"
+  },
+  "template": {
+    "item": "huanle:flame_god_smithing_template"
+  }
+}

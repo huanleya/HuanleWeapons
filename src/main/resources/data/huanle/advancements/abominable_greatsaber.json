@@ -1,0 +1,31 @@
+{
+  "parent": "huanle:root",
+  "display": {
+    "icon": {
+      "item": "huanle:abominable_greatsaber"
+    },
+    "title": {
+      "translate": "advancements.huanle.abominable_greatsaber.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.abominable_greatsaber.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_abominable_greatsaber": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:abominable_greatsaber"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_abominable_greatsaber"]]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E",
+    "   "
+  ],
+  "key": {
+    "E": {
+      "item": "huanle:ender_crystal"
+    }
+  },
+  "result": {
+    "item": "huanle:ender_crystal_helmet"
+  }
+}

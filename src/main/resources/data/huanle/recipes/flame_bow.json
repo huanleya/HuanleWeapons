@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FBS",
+    "B S",
+    "FBS"
+  ],
+  "key": {
+    "F": {
+      "item": "huanle:fire_god_ingot"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "huanle:flame_bow",
+    "count": 1
+  }
+}

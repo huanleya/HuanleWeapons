@@ -1,0 +1,12 @@
+{
+  "type": "huanle:grinding",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "output": {
+    "item": "huanle:copper_powder",
+    "count": 1
+  }
+}

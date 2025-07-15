@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EHE",
+    "ESE",
+    "EDE"
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:dragon_head"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "S": {
+      "item": "huanle:ender_sword"
+    },
+    "D": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "result": {
+    "item": "huanle:dragon_hunter_sword"
+  }
+} 

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GAG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "huanle:ender_crystal_block"
+    },
+    "A": {
+      "item": "huanle:ender_crystal_apple"
+    }
+  },
+  "result": {
+    "item": "huanle:enchanted_ender_crystal_apple",
+    "count": 1
+  }
+}

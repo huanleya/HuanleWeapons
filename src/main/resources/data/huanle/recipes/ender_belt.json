@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ELE",
+    "LBL",
+    "ELE"
+  ],
+  "key": {
+    "E": {
+      "item": "huanle:ender_crystal"
+    },
+    "B": {
+      "item": "minecraft:ender_chest"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "huanle:ender_belt",
+    "count": 1
+  }
+}

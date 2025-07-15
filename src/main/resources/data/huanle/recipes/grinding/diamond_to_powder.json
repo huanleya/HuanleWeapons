@@ -1,0 +1,12 @@
+{
+  "type": "huanle:grinding",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "output": {
+    "item": "huanle:diamond_powder",
+    "count": 1
+  }
+}

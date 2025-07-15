@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LGL",
+    "G G",
+    " L "
+  ],
+  "key": {
+    "L": {
+      "item": "huanle:lava_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "huanle:lava_necklace",
+    "count": 1
+  }
+}

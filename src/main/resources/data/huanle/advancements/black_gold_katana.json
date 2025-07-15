@@ -1,0 +1,37 @@
+{
+  "parent": "huanle:root",
+  "display": {
+    "icon": {
+      "item": "huanle:black_gold_katana"
+    },
+    "title": {
+      "translate": "item.huanle.black_gold_katana"
+    },
+    "description": {
+      "translate": "item.huanle.black_gold_katana.tooltip"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "black_gold_katana": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "huanle:black_gold_katana"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "black_gold_katana"
+    ]
+  ]
+}
