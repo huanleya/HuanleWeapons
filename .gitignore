@@ -28,3 +28,8 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+
+# Exclude specific folders
+1.20.1sever/
+.vscode/
+.history/
