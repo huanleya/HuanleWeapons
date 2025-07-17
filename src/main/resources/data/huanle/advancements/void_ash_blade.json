@@ -1,0 +1,31 @@
+{
+  "parent": "huanle:root",
+  "display": {
+    "icon": {
+      "item": "huanle:void_ash_blade"
+    },
+    "title": {
+      "translate": "advancements.huanle.void_ash_blade.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.void_ash_blade.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_void_ash_blade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:void_ash_blade"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_void_ash_blade"]]
+}

@@ -1,5 +1,4 @@
 {
-  "enchantment.huanle.lava_walker": "Лавовый ходок",
   "item.huanle.huanle_sword": "Конечный меч",
 
   "item.huanle.green_dragon_sword": "Зеленый драконий меч",
@@ -27,6 +26,7 @@
   "itemGroup.huanle_materials_tab": "Оружие Хуанле: Материалы",
   "itemGroup.huanle_blocks_tab": "Оружие Хуанле: Блоки",
   "itemGroup.huanle_armor_tab": "Оружие Хуанле: Доспехи",
+  "itemGroup.huanle_food_tab": "Оружие Хуанле: Еда",
 
   "item.huanle.ender_sword": "Эндерский меч",
   "item.huanle.ender_sword.desc": "Правой кнопкой мыши можно бросить Эндерскую жемчужину",
@@ -201,6 +201,44 @@
   "item.huanle.magic_crystal_apple": "Магический кристаллический яблоко",
   "item.huanle.magic_crystal_apple.desc": "§6При употреблении предоставляет различные баффы",
 
+  "item.huanle.evil_blade_sword": "Злой клинок",
+  "item.huanle.evil_blade_sword.desc": "Правой кнопкой мыши можно бросить Эндерскую жемчужину",
+  "item.huanle.evil_blade_sword.desc2": "20% шанс нанести дополнительный урон и применить эффект Слабости",
+  "advancements.huanle.sun_god_staff.title": "Посланник бога солнца",
+  "advancements.huanle.sun_god_staff.description": "Получите Посох бога солнца",
+  "advancements.huanle.void_ash_blade.title": "Мечник пустоты",
+  "advancements.huanle.void_ash_blade.description": "Получите Клинок пепла пустоты",
+  "advancements.huanle.abominable_greatsaber.title": "Мастер хаоса",
+  "advancements.huanle.abominable_greatsaber.description": "Получите Отвратительную большую саблю",
+
+  "item.huanle.royal_great_sword": "Королевский большой меч",
+  "advancements.huanle.royal_greatsword.title": "Королевский рыцарь",
+  "advancements.huanle.royal_greatsword.description": "Получите Королевский большой меч",
+  "item.huanle.royal_great_sword.desc": "Мощный большой меч для королей",
+
+  "item.huanle.ender_crystal_sword": "Эндерский кристаллический меч",
+  "item.huanle.ender_crystal_sword.desc": "Мощный меч, кованый из эндерского кристалла",
+  "item.huanle.ender_crystal_axe": "Эндерский кристаллический топор",
+  "item.huanle.ender_crystal_axe.desc": "Мощный топор, кованый из эндерского кристалла",
+  "item.huanle.ender_crystal_pickaxe": "Эндерская кристаллическая кирка",
+  "item.huanle.ender_crystal_pickaxe.desc": "Мощная кирка, кованая из эндерского кристалла",
+  "item.huanle.ender_crystal_hoe": "Эндерская кристаллическая мотыга",
+  "item.huanle.ender_crystal_hoe.desc": "Мощная мотыга, кованая из эндерского кристалла",
+  "item.huanle.ender_crystal_shovel": "Эндерская кристаллическая лопата",
+  "item.huanle.ender_crystal_shovel.desc": "Мощная лопата, кованая из эндерского кристалла",
+
+  "item.huanle.ender_crystal_helmet": "Эндерский кристаллический шлем",
+  "item.huanle.ender_crystal_chestplate": "Эндерская кристаллическая нагрудная броня",
+  "item.huanle.ender_crystal_leggings": "Эндерские кристаллические поножи",
+  "item.huanle.ender_crystal_boots": "Эндерские кристаллические сапоги",
+  "item.huanle.ender_crystal_armor.desc": "Надев весь комплект получает иммунитет к телепортации",
+
+  "key.categories.huanle": "Оружие Хуанле",
+  "key.huanle.mana_display_toggle": "Переключить отображение маны",
+  "huanle.mana_display.current": "Текущая мана: %s",
+  "huanle.mana_display.max": "Максимальная мана: %s",
+  "huanle.mana_display.insufficient": "Недостаточно маны! Требуется: %s, Текущая: %s",
+
   "item.huanle.fear_tear": "Слеза страха",
   "item.minecraft.tipped_arrow.effect.fear_potion": "Стрела страха",
   "item.minecraft.tipped_arrow.effect.long_fear_potion": "Долговременная стрела страха",
@@ -237,5 +275,139 @@
   "item.huanle.fire_god_chestplate": "Нагрудная броня бога огня",
   "item.huanle.fire_god_leggings": "Поножи бога огня",
   "item.huanle.fire_god_boots": "Сапоги бога огна",
-  "item.huanle.fire_god_armor.desc": "Надев весь комплект получает сопротивление огню и эффект Силы II в лаве"
+  "item.huanle.fire_god_armor.desc": "Надев весь комплект получает сопротивление огню и эффект Силы II в лаве",
+
+  "effect.huanle.frosty": "Морозный",
+  "effect.huanle.frosty.desc": "Уменьшает скорость передвижения и вызывает эффекты замораживания",
+
+  "item.huanle.emerald_sword": "Изумрудный меч",
+  "item.huanle.emerald_sword.desc": "Мощный меч, кованый из изумрудов",
+  "item.huanle.emerald_axe": "Изумрудный топор",
+  "item.huanle.emerald_axe.desc": "Мощный топор, кованый из изумрудов",
+  "item.huanle.emerald_pickaxe": "Изумрудная кирка",
+  "item.huanle.emerald_pickaxe.desc": "Мощная кирка, кованая из изумрудов",
+  "item.huanle.emerald_hoe": "Изумрудная мотыга",
+  "item.huanle.emerald_hoe.desc": "Мощная мотыга, кованая из изумрудов",
+  "item.huanle.emerald_shovel": "Изумрудная лопата",
+  "item.huanle.emerald_shovel.desc": "Мощная лопата, кованая из изумрудов",
+
+  "item.huanle.emerald_helmet": "Изумрудный шлем",
+  "item.huanle.emerald_chestplate": "Изумрудная нагрудная броня",
+  "item.huanle.emerald_leggings": "Изумрудные поножи",
+  "item.huanle.emerald_boots": "Изумрудные сапоги",
+  "item.huanle.emerald_armor.desc": "Надев весь комплект получает эффект Удачи",
+
+  "item.huanle.ender_belt": "Эндерский пояс",
+  "item.huanle.ender_belt.desc": "Позволяет телепортироваться правой кнопкой мыши",
+
+  "curios.identifier.belt": "Пояс",
+  "curios.identifier.ring": "Кольцо",
+  "curios.modifiers.belt": "При ношении на поясе:",
+  "curios.modifiers.ring": "При ношении на кольце:",
+
+  "item.huanle.life_ring": "Кольцо жизни",
+  "item.huanle.life_ring.desc": "Предоставляет непрерывные эффекты регенерации",
+
+  "entity.huanle.mysterious_trader": "Таинственный торговец",
+  "item.huanle.mysterious_trader_spawn_egg": "Яйцо призыва таинственного торговца",
+
+  "item.huanle.copper_powder": "Медный порошок",
+  
+  "item.huanle.magic_sword": "Магический меч",
+  "item.huanle.magic_sword.desc": "ПКМ для ледяной атаки",
+  "item.huanle.magic_sword.mana_cost": "Расход маны: %s",
+  "item.huanle.magic_sword.damage": "Магический урон: %s",
+  "item.huanle.magic_sword.freeze_duration": "Эффект заморозки: 5 секунд",
+  "item.huanle.magic_sword.range": "Радиус атаки: %s блоков",
+
+  "item.huanle.mana_bottle": "Бутылка маны",
+  "item.huanle.mana_bottle.tooltip": "ПКМ для броска и мгновенного восстановления 10 очков маны",
+  "entity.huanle.mana_bottle": "Бутылка маны",
+  "enchantment.huanle.mana_mastery": "Мастерство маны",
+  "enchantment.huanle.mana_mastery.desc": "Снижает расход маны магического оружия, уменьшает на 1 ману за уровень",
+  "entity.huanle.fireball": "Огненный шар",
+
+  "itemGroup.huanle_tools_tab": "Оружие Хуанле: Инструменты",
+  "itemGroup.huanle_curios_tab": "Оружие Хуанле: Куриосы",
+  "itemGroup.huanle_spawn_eggs_tab": "Оружие Хуанле: Яйца призыва",
+
+  "item.huanle.dragon_hunter_sword.not_enough_mana": "Недостаточно маны! Требуется %s маны",
+  "item.huanle.void_ash_blade.not_enough_mana": "Недостаточно маны! Требуется %s маны",
+  "item.huanle.sun_god_sword.not_enough_mana": "Недостаточно маны! Требуется %s маны",
+  "item.huanle.earth_sword.not_enough_mana": "Недостаточно маны! Требуется %s маны",
+
+  "gui.huanle.config.title": "Конфигурация оружия Хуанле",
+  "gui.huanle.config.mana_config": "Настройки полосы маны",
+  "gui.huanle.config.back": "Назад",
+  "gui.huanle.mana_config.title": "Настройки полосы маны",
+  "gui.huanle.mana_config.enable_mana_bar": "Включить полосу маны",
+  "gui.huanle.mana_config.show_mana_text": "Показать текст значения маны",
+  "gui.huanle.mana_config.display_mode": "Режим отображения: %s",
+  "gui.huanle.mana_config.display_mode.always": "Всегда показывать",
+  "gui.huanle.mana_config.display_mode.weapon_only": "Показывать только при держании оружия",
+  "gui.huanle.mana_config.ui_size": "Размер UI: %s",
+  "gui.huanle.mana_config.ui_size.large": "Большой",
+  "gui.huanle.mana_config.ui_size.small": "Маленький",
+  "gui.huanle.mana_config.width": "Ширина:",
+  "gui.huanle.mana_config.height": "Высота:",
+  "gui.huanle.mana_config.text_scale": "Масштаб текста:",
+  "gui.huanle.mana_config.drag_position": "Перетащите для перемещения позиции полосы маны",
+  "gui.huanle.mana_config.reset_position": "Сбросить позицию",
+  "gui.huanle.mana_config.drag_instruction": "Нажмите и перетащите полосу маны в желаемое положение",
+  "gui.huanle.mana_config.save": "Сохранить",
+  "gui.huanle.mana_config.cancel": "Отмена",
+
+  "gui.huanle.grinder.recipe_text": "Поместите предметы для начала измельчения",
+  "command.huanle.spawn_merchant.success": "Таинственный торговец появился!",
+  "command.huanle.spawn_merchant.player_only": "Эта команда может использоваться только игроками!",
+
+  "tooltip.huanle.void_ash_blade.crouch_right_click": "§5Присед + ПКМ: §7Оглушить существ в радиусе 16 блоков на 3 секунды и применить слабость на 10 секунд (Перезарядка: 10с)",
+  "tooltip.huanle.void_ash_blade.hold_right_click": "§5Удержание ПКМ: §7Непрерывно притягивать существ в радиусе 64 блоков",
+
+  "block.huanle.ender_crystal_block": "Блок эндер-кристалла",
+
+  "item.huanle.void_ash_blade": "Пепельный клинок пустоты",
+  "item.huanle.void_ash_blade.desc": "20% шанс применить эффект слабости при атаке",
+  "effect.huanle.stun": "Оглушение",
+  "effect.huanle.stun.desc": "Предотвращает движение и атаки",
+
+  "item.huanle.sun_god_eye": "Глаз бога солнца",
+  "item.huanle.sun_god_eye.desc": "Мистический амулет, содержащий силу солнца",
+  "item.huanle.sun_god_eye.desc2": "При экипировке дает огнестойкость и эффект спешки",
+  "attribute.name.huanle.max_mana": "Максимальная мана",
+
+  "key.huanle.open_config": "Открыть настройки полосы маны",
+
+  "item.huanle.sun_god_staff": "Посох бога солнца",
+  "item.huanle.sun_god_staff.desc": "ПКМ для потребления 10 маны и выстрела огненным шаром",
+  "item.huanle.sun_god_staff.desc2": "Присед + ПКМ для потребления 30 маны и вызова дождя огненных шаров (Перезарядка: 30с)",
+  "item.huanle.sun_god_staff.fireball_rain_cooldown": "Дождь огненных шаров на перезарядке, осталось %s секунд...",
+  "item.huanle.sun_god_staff.not_enough_mana": "Недостаточно маны! Требуется %s маны",
+  "tooltip.huanle.mana_cost": "Стоимость маны: %d",
+  "message.huanle.insufficient_mana": "Недостаточно маны!",
+
+  "item.huanle.evil_blade_sword.desc": "ПКМ для броска эндер-жемчуга",
+  "item.huanle.evil_blade_sword.desc2": "20% шанс нанести дополнительный урон и применить дебафф слабости",
+
+  "item.huanle.royal_greatsword": "Королевский большой меч",
+  "tooltip.huanle.royal_greatsword.desc": "Величественный королевский большой меч с мощной силой атаки",
+
+  "advancements.huanle.evil_blade_sword.title": "Мечник злого клинка",
+  "advancements.huanle.evil_blade_sword.description": "Получить злой клинок",
+
+  "curios.modifiers.ring": "При экипировке в слот кольца:",
+
+  "huanle.mana_bar.position_info": "Текущая позиция: X смещение=%d, Y смещение=%d",
+  "huanle.grinder.progress": "Прогресс: %d/%d",
+  "huanle.command.mana.get": "Мана %s: %d/%d",
+  "huanle.command.mana.set": "Установить ману %s на %d",
+  "huanle.command.mana.add": "Добавлено %d маны %s (%d -> %d)",
+  "huanle.command.mana.setmax": "Установить максимальную ману %s на %d",
+  "item.huanle.enchanted_amethyst_apple": "Зачарованное аметистовое яблоко",
+  "item.huanle.enchanted_amethyst_apple.desc": "§6Дает эффекты Сопротивления VI, Поглощения V и Регенерации III при употреблении",
+  "item.huanle.enchanted_ender_crystal_apple": "Зачарованное яблоко эндер-кристалла",
+  "item.huanle.enchanted_ender_crystal_apple.desc": "§6Дает множественные мощные эффекты при употреблении, включая Сопротивление Эндера II",
+  "item.huanle.enchanted_magic_crystal_apple": "Зачарованное яблоко магического кристалла",
+  "item.huanle.enchanted_magic_crystal_apple.desc": "§6Дает эффекты более высокого уровня при употреблении",
+  "item.huanle.abominable_greatsaber": "Отвратительный великий меч"
 }

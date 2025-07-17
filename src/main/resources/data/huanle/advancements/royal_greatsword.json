@@ -1,0 +1,31 @@
+{
+  "parent": "huanle:root",
+  "display": {
+    "icon": {
+      "item": "huanle:royal_greatsword"
+    },
+    "title": {
+      "translate": "advancements.huanle.royal_greatsword.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.royal_greatsword.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_royal_greatsword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:royal_greatsword"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_royal_greatsword"]]
+}

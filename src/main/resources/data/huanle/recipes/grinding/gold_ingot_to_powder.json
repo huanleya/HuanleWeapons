@@ -1,0 +1,12 @@
+{
+  "type": "huanle:grinding",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "output": {
+    "item": "huanle:gold_powder",
+    "count": 1
+  }
+}

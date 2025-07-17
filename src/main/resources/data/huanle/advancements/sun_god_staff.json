@@ -1,0 +1,31 @@
+{
+  "parent": "huanle:root",
+  "display": {
+    "icon": {
+      "item": "huanle:sun_god_staff"
+    },
+    "title": {
+      "translate": "advancements.huanle.sun_god_staff.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.sun_god_staff.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_sun_god_staff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:sun_god_staff"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_sun_god_staff"]]
+}
