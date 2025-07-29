@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "minecraft:dripstone_caves",
+    "minecraft:lush_caves",
+    "minecraft:deep_dark"
+  ],
+  "spawners": {
+    "type": "huanle:zombie_miner",
+    "weight": 35,
+    "minCount": 2,
+    "maxCount": 6
+  }
+}

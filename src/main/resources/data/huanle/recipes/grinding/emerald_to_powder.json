@@ -1,0 +1,12 @@
+{
+  "type": "huanle:grinding",
+  "ingredients": [
+    {
+      "item": "minecraft:emerald"
+    }
+  ],
+  "output": {
+    "item": "huanle:emerald_powder",
+    "count": 1
+  }
+}

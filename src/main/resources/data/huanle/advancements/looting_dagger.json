@@ -1,0 +1,31 @@
+{
+  "parent": "huanle:root",
+  "display": {
+    "icon": {
+      "item": "huanle:looting_dagger"
+    },
+    "title": {
+      "translate": "advancements.huanle.looting_dagger.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.looting_dagger.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_looting_dagger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:looting_dagger"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_looting_dagger"]]
+}

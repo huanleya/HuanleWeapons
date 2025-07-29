@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "NLN",
+        "LBL",
+        "NLN"
+    ],
+    "key": {
+        "L": {
+            "item": "huanle:lava_ingot"
+        },
+        "B": {
+            "item": "minecraft:blaze_powder"
+        },
+        "N": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "item": "huanle:fire_god_ingot",
+        "count": 1
+    }
+}

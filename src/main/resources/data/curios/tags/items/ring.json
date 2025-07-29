@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "huanle:life_ring",
+    "huanle:meteorite_ring",
+    "huanle:fire_element_ring",
+    "huanle:earth_element_ring",
+    "huanle:gold_element_ring",
+    "huanle:wood_element_ring",
+    "huanle:water_element_ring",
+    "huanle:five_element_ring"
+  ]
+}

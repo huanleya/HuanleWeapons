@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "huanle:flame_bow"
+    },
+    "title": {
+      "translate": "advancements.huanle.flame_bow.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.flame_bow.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "huanle:root",
+  "criteria": {
+    "has_flame_bow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:flame_bow"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_flame_bow"]]
+}

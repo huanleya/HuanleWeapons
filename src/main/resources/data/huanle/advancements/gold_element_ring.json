@@ -1,0 +1,31 @@
+{
+  "parent": "huanle:root",
+  "display": {
+    "icon": {
+      "item": "huanle:gold_element_ring"
+    },
+    "title": {
+      "translate": "advancements.huanle.gold_element_ring.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.gold_element_ring.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_gold_element_ring": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:gold_element_ring"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_gold_element_ring"]]
+}

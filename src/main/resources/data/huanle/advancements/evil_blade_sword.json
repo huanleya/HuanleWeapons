@@ -1,0 +1,31 @@
+{
+  "parent": "huanle:root",
+  "display": {
+    "icon": {
+      "item": "huanle:evil_blade_sword"
+    },
+    "title": {
+      "translate": "advancements.huanle.evil_blade_sword.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.evil_blade_sword.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_evil_blade_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:evil_blade_sword"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_evil_blade_sword"]]
+}

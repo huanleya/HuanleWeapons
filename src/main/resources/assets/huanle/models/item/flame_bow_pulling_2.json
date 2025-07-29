@@ -1,0 +1,6 @@
+{
+  "parent": "huanle:item/flame_bow",
+  "textures": {
+    "layer0": "huanle:item/flame_bow_pulling_2"
+  }
+}

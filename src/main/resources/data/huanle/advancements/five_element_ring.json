@@ -1,0 +1,46 @@
+{
+  "parent": "huanle:root",
+  "display": {
+    "icon": {
+      "item": "huanle:five_element_ring"
+    },
+    "title": {
+      "translate": "advancements.huanle.five_element_ring.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.five_element_ring.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fire_element_achievement": {
+      "trigger": "minecraft:impossible"
+    },
+    "water_element_achievement": {
+      "trigger": "minecraft:impossible"
+    },
+    "earth_element_achievement": {
+      "trigger": "minecraft:impossible"
+    },
+    "wood_element_achievement": {
+      "trigger": "minecraft:impossible"
+    },
+    "gold_element_achievement": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_five_element_ring": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:five_element_ring"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["fire_element_achievement", "water_element_achievement", "earth_element_achievement", "wood_element_achievement", "gold_element_achievement", "has_five_element_ring"]]
+}

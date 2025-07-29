@@ -1,0 +1,476 @@
+{
+  "enchantment.huanle.lava_walker": "溶岩歩行者",
+  "item.huanle.huanle_sword": "終焉の剣",
+
+  "item.huanle.green_dragon_sword": "青竜剣",
+  "item.huanle.green_dragon_sword.desc": "敵に命中すると5秒間毒状態にする",
+  "item.huanle.green_dragon_sword.desc2": "20%の確率で一時的な速度ブーストを獲得する",
+  "item.huanle.green_dragon_sword.desc3": "10%の確率で攻撃後に2のライフを回復する",
+
+  "item.huanle.sun_god_sword": "太陽神剣",
+  "item.huanle.sun_god_sword.desc": "右クリックで範囲スキルを発動し、5秒間急迫II効果を得る",
+  "item.huanle.sun_god_sword.desc2": "16x16の範囲で5のダメージを与え、エンティティを燃やす",
+
+  "item.huanle.throwing_axe": "投擲斧",
+  "item.huanle.throwing_axe.desc": "右クリックで斧を投げる",
+  "item.huanle.throwing_axe.charge": "右クリックを長押ししてチャージ、チャージ時間が長いほど投擲距離が遠くなる",
+
+  "enchantment.huanle.lightning_strike": "雷撃",
+  "enchantment.huanle.lightning_strike.desc": "エンティティを攻撃すると雷を降らす、レベルが高いほど降り注ぐ雷が多い、剣、三叉戟、斧に対応",
+
+  "enchantment.huanle.quick_draw": "速射",
+  "enchantment.huanle.quick_draw.desc": "毎レベルごとに引き金時間を0.3秒減少させる",
+
+  "entity.huanle.throwing_axe": "投擲斧",
+
+  "itemGroup.huanle_tab": "Huanleの武器",
+  "itemGroup.huanle_materials_tab": "Huanleの武器: 材料",
+  "itemGroup.huanle_blocks_tab": "Huanleの武器: ブロック",
+  "itemGroup.huanle_armor_tab": "Huanleの武器: 鎧",
+  "itemGroup.huanle_food_tab": "Huanleの武器: 食べ物",
+
+  "item.huanle.ender_sword": "エンド剣",
+  "item.huanle.ender_sword.desc": "右クリックでエンドパールを投げる",
+  "item.huanle.ender_sword.desc2": "20%の確率で追加ダメージを与え、対象に弱体バフを適用する",
+
+  "advancements.huanle.ender_sword.title": "エンド剣士",
+  "advancements.huanle.ender_sword.description": "エンド剣を入手する",
+  "advancements.huanle.sun_god_sword.title": "太陽神剣士",
+  "advancements.huanle.sun_god_sword.description": "太陽神剣を入手する",
+
+  "item.huanle.flame_bow": "フレイムボウ",
+  "item.huanle.flame_bow.desc": "フレイム矢しか射ることができない",
+  "item.huanle.flame_arrow": "フレイム矢",
+
+  "advancements.huanle.flame_bow.title": "フレイムアーチャー",
+  "advancements.huanle.flame_bow.description": "フレイムボウを入手する",
+  "advancements.huanle.huanle_sword.title": "終焉剣士",
+  "advancements.huanle.huanle_sword.description": "終焉の剣を入手する",
+
+  "advancements.huanle.root.title": "マジッククリスタルの発見者",
+  "advancements.huanle.root.description": "マジッククリスタルを採掘する",
+
+  "item.huanle.magic_crystal": "マジッククリスタル",
+  "block.huanle.magic_crystal_ore": "マジッククリスタル鉱石",
+  "block.huanle.ender_crystal_ore": "エンドクリスタル鉱石",
+
+  "item.huanle.lava_ingot": "溶岩石",
+
+  "item.huanle.lava_sword": "溶岩剣",
+  "item.huanle.lava_sword.desc": "エンティティを攻撃すると火をつける",
+
+  "advancements.huanle.lava_sword.title": "溶岩剣士",
+  "advancements.huanle.lava_sword.description": "溶岩剣を入手する",
+
+  "block.huanle.deepslate_magic_crystal_ore": "デプスレートマジッククリスタル鉱石",
+  "block.huanle.magic_crystal_block": "マジッククリスタルブロック",
+
+  "item.huanle.moonlight_sword": "ムーンライト剣",
+  "item.huanle.moonlight_sword.desc": "右クリックで青い半月弧を発射する(クールダウン2秒)",
+  "item.huanle.moonlight_sword.desc2": "弧が命中した場合、10秒間凍傷状態にする",
+
+  "item.huanle.moon_crescent_sword": "新月剣",
+  "item.huanle.moon_crescent_sword.desc": "持っていると抵抗力を得る",
+  "item.huanle.moon_crescent_sword.desc2": "攻撃されたターゲットを遅くする",
+
+  "effect.huanle.freezing": "凍傷",
+  "effect.huanle.freezing.desc": "レベルごとに移動速度を30%減少させ、時間経過で0.5の魔法ダメージを与える",
+
+  "item.huanle.blue_flame_sword": "ブルーフレーム剣",
+  "item.huanle.blue_flame_sword.desc": "持っていると防火効果を得る",
+  "item.huanle.blue_flame_sword.desc2": "命中時に燃焼時間を5秒増加させる",
+  "item.huanle.blue_flame_sword.desc3": "燃えているターゲットに対して4倍のダメージを与える",
+
+  "item.huanle.ender_hammer": "エンドハンマー",
+  "item.huanle.ender_hammer.desc": "3x3のエリアのブロックを採掘できる",
+  "item.huanle.ender_hammer.desc2": "20%の確率で敵をスタンさせる",
+
+  "advancements.huanle.green_dragon_sword.title": "青竜現世",
+  "advancements.huanle.green_dragon_sword.description": "青竜剣を入手する",
+
+  "advancements.huanle.moon_crescent_sword.title": "新月の刃",
+  "advancements.huanle.moon_crescent_sword.description": "新月剣を入手する",
+
+  "advancements.huanle.moonlight_sword.title": "皎月の輝き",
+  "advancements.huanle.moonlight_sword.description": "ムーンライト剣を入手する",
+
+  "advancements.huanle.blue_flame_sword.title": "幽藍の炎",
+  "advancements.huanle.blue_flame_sword.description": "ブルーフレーム剣を入手する",
+
+  "advancements.huanle.ender_hammer.title": "エンド破壊者",
+  "advancements.huanle.ender_hammer.description": "エンドハンマーを入手する",
+
+  "item.huanle.forest_blade": "森の刃",
+  "item.huanle.forest_blade.desc": "水中で持っていると生命回復効果を得る",
+  "item.huanle.forest_blade.desc2": "30%の確率で敵に凋零II効果を5秒間与える",
+  "item.huanle.forest_blade.desc3": "3%の確率で攻撃時にライフを完全に回復する",
+  "item.huanle.forest_blade.desc4": "しゃがみながら右クリックで10のライフを消費して強化II効果を10秒間得る",
+
+  "advancements.huanle.forest_blade.title": "森の守護者",
+  "advancements.huanle.forest_blade.description": "森の刃を入手する",
+
+  "item.huanle.death_scythe": "死の鐮",
+  "item.huanle.death_scythe.desc": "敵を攻撃すると4のライフを吸収する",
+  "item.huanle.death_scythe.desc2": "5%の確率で出血効果をトリガーする(現在のライフの30%を削除し、継続的にダメージを与える)",
+  "item.huanle.death_scythe.desc3": "しゃがみながら右クリックで10のライフを消費して敵に8秒間凋零II効果を与える",
+
+  "effect.huanle.bleeding": "出血",
+  "effect.huanle.bleeding.desc": "継続的に魔法ダメージを与える",
+
+  "effect.huanle.fear": "恐怖",
+  "effect.huanle.fear.desc": "すべての回復を阻止する、飢餓回復、飽和度回復、回復効果、瞬間治療効果を含む",
+
+  "advancements.huanle.death_scythe.title": "死の収穫者",
+  "advancements.huanle.death_scythe.description": "死の鐮を入手する",
+
+  "item.huanle.looting_dagger": "略奪ナイフ",
+  "item.huanle.looting_dagger.desc": "福運V付与、戦利品ドロップ率を向上させる",
+
+  "advancements.huanle.looting_dagger.title": "略奪者",
+  "advancements.huanle.looting_dagger.description": "略奪ナイフを入手する",
+
+  "item.huanle.fire_god_ingot": "炎神インゴット",
+
+  "item.huanle.fire_god_dagger": "炎神ダガー",
+  "item.huanle.fire_god_dagger.desc": "持っていると防火効果を得る",
+  "item.huanle.fire_god_dagger.desc2": "エンティティを攻撃すると10秒間火をつける",
+
+  "advancements.huanle.fire_god_dagger.title": "炎神使者",
+  "advancements.huanle.fire_god_dagger.description": "炎神ダガーを入手する",
+
+  "item.huanle.life_staff": "ライフスタッフ",
+  "item.huanle.life_staff.desc": "右クリックで6のライフを回復する",
+  "item.huanle.life_staff.desc2": "クールダウンは60秒",
+  "item.huanle.life_staff.desc3": "各使用で5の耐久度を消費する",
+
+  "advancements.huanle.lava_ingot.title": "溶融金属",
+  "advancements.huanle.lava_ingot.description": "溶岩石を入手する",
+
+  "advancements.huanle.fire_god_ingot.title": "炎神精華",
+  "advancements.huanle.fire_god_ingot.description": "炎神インゴットを合成する",
+
+  "item.huanle.dragon_hunter_sword": "ドラゴンハンター剣",
+  "item.huanle.dragon_hunter_sword.desc": "右クリックで8ブロック離れた場所にテレポートする(クールダウン5秒)",
+  "item.huanle.dragon_hunter_sword.desc2": "しゃがみながら右クリックで形態を切り替える(クールダウン60秒)",
+  "item.huanle.dragon_hunter_sword.desc3": "形態を切り替えると強化IIと速度II効果を30秒間得る",
+
+  "item.huanle.awakened_dragon_hunter_sword": "覚醒ドラゴンハンター剣",
+  "item.huanle.awakened_dragon_hunter_sword.desc": "剣身にはエンド粒子エフェクトがある",
+  "item.huanle.awakened_dragon_hunter_sword.desc2": "20%の確率で追加ダメージを与え、弱体効果を適用する",
+  "item.huanle.awakened_dragon_hunter_sword.desc3": "右クリックで20x20の範囲内のエンティティに光る効果を適用する(クールダウン60秒)",
+  "item.huanle.awakened_dragon_hunter_sword.desc4": "光るエンティティに対して2倍のダメージを与える",
+
+  "advancements.huanle.dragon_hunter_sword.title": "ドラゴンハンター剣士",
+  "advancements.huanle.dragon_hunter_sword.description": "ドラゴンハンター剣を入手する",
+
+  "item.huanle.dragon_hunter_sword.transform_cooldown_time": "形態切替クールダウン中、残り %s 秒...",
+  "item.huanle.dragon_hunter_sword.transformed_awakened": "覚醒形態に切り替えました！",
+  "item.huanle.dragon_hunter_sword.transformed_normal": "通常形態に戻りました。",
+  "item.huanle.dragon_hunter_sword.glow_success": "光る効果を成功裏に適用しました！",
+  "item.huanle.dragon_hunter_sword.teleport_cooldown_time": "テレポートスキルクールダウン中、残り %s 秒...",
+  "item.huanle.dragon_hunter_sword.teleport_success": "テレポートに成功しました！",
+  "item.huanle.dragon_hunter_sword.teleport_unsafe": "危険なテレポート位置です！",
+  "item.huanle.dragon_hunter_sword.glow_cooldown_time": "光るスキルクールダウン中、残り %s 秒...",
+
+  "item.huanle.flame_god_smithing_template": "炎神鍛冶テンプレート",
+  "item.huanle.flame_god_axe": "炎神斧",
+  "item.huanle.flame_god_axe.desc": "炎神インゴットで鍛えた強力な斧",
+  "item.huanle.flame_god_pickaxe": "炎神ピッケル",
+  "item.huanle.flame_god_pickaxe.desc": "炎神インゴットで鍛えた強力なピッケル",
+  "item.huanle.flame_god_hoe": "炎神ホー",
+  "item.huanle.flame_god_hoe.desc": "炎神インゴットで鍛えた強力なホー",
+  "item.huanle.flame_god_shovel": "炎神シャベル",
+  "item.huanle.flame_god_shovel.desc": "炎神インゴットで鍛えた強力なシャベル",
+
+  "item.huanle.forest_smithing_template": "森林鍛冶テンプレート",
+  "item.huanle.forest_ingot": "森林インゴット",
+  "item.huanle.forest_axe": "森林斧",
+  "item.huanle.forest_axe.desc": "敵を攻撃すると毒状態にする",
+  "item.huanle.forest_pickaxe": "森林ピッケル",
+  "item.huanle.forest_pickaxe.desc": "敵を攻撃すると毒状態にする",
+  "item.huanle.forest_hoe": "森林ホー",
+  "item.huanle.forest_hoe.desc": "敵を攻撃すると毒状態にする",
+  "item.huanle.forest_shovel": "森林シャベル",
+  "item.huanle.forest_shovel.desc": "敵を攻撃すると毒状態にする",
+
+  "item.huanle.forest_helmet": "森林ヘルメット",
+  "item.huanle.forest_chestplate": "森林チェストプレート",
+  "item.huanle.forest_leggings": "森林レギングス",
+  "item.huanle.forest_boots": "森林ブーツ",
+  "item.huanle.forest_armor.desc": "セットを着用すると水中で再生II効果を得る",
+
+  "item.huanle.magic_crystal_apple": "マジッククリスタルアップル",
+  "item.huanle.magic_crystal_apple.desc": "§6食べると様々なバフを得る",
+
+  "item.huanle.fear_tear": "恐怖の涙",
+  "item.minecraft.tipped_arrow.effect.fear_potion": "恐怖の矢",
+  "item.minecraft.tipped_arrow.effect.long_fear_potion": "長持ちする恐怖の矢",
+  "item.minecraft.tipped_arrow.effect.strong_fear_potion": "強い恐怖の矢",
+  "item.minecraft.potion.effect.fear_potion": "恐怖のポーション",
+  "item.minecraft.potion.effect.long_fear_potion": "長持ちする恐怖のポーション",
+  "item.minecraft.potion.effect.strong_fear_potion": "強い恐怖のポーション",
+  "item.minecraft.splash_potion.effect.fear_potion": "スプラッシュ恐怖のポーション",
+  "item.minecraft.splash_potion.effect.long_fear_potion": "長持ちするスプラッシュ恐怖のポーション",
+  "item.minecraft.splash_potion.effect.strong_fear_potion": "強いスプラッシュ恐怖のポーション",
+  "item.minecraft.lingering_potion.effect.fear_potion": "滯留型恐怖のポーション",
+  "item.minecraft.lingering_potion.effect.long_fear_potion": "長持ちする滯留型恐怖のポーション",
+  "item.minecraft.lingering_potion.effect.strong_fear_potion": "強い滯留型恐怖のポーション",
+
+  "item.huanle.earth_sword": "大地の剣",
+  "item.huanle.earth_sword.desc": "右クリック: 前方に重撃、近くのエンティティにダメージを与える(クールダウン10秒)",
+  "item.huanle.earth_sword.desc2": "しゃがみながら右クリック: 地震を引き起こし、周囲のブロックを揺らし、エンティティにダメージを与える(クールダウン10秒)",
+  "item.huanle.earth_sword.cooldown_earthquake": "地震攻撃クールダウン中。残り：%s 秒",
+  "item.huanle.earth_sword.cooldown_pull": "爆発攻撃クールダウン中。残り：%s 秒",
+
+  "item.huanle.black_gold_katana": "黒金刀",
+  "item.huanle.black_gold_katana.tooltip": "黒金で鍛えた強力な刀",
+
+  "item.huanle.ender_crystal": "エンドクリスタル",
+  "item.huanle.ender_crystal_apple": "エンドクリスタルアップル",
+  "item.huanle.ender_crystal_apple.desc": "§6食べると複数の強力なバフを得る、エンド抵抗性を含む",
+  "effect.huanle.ender_resistance": "エンド抵抗性",
+  "effect.huanle.ender_resistance.description": "エンドドラゴンの息吹やエンドパールによるテレポートダメージに免疫",
+
+  "item.huanle.amethyst_apple": "アメシストアップル",
+  "item.huanle.amethyst_apple.desc": "§6食べると抵抗力V、吸収IV、再生II効果を得る",
+
+  "item.huanle.fire_god_helmet": "炎神ヘルメット",
+  "item.huanle.fire_god_chestplate": "炎神チェストプレート",
+  "item.huanle.fire_god_leggings": "炎神レギングス",
+  "item.huanle.fire_god_boots": "炎神ブーツ",
+  "item.huanle.fire_god_armor.desc": "セットを着用すると防火効果を得、溶岩で強化II効果を得る",
+
+  "effect.huanle.frosty": "氷封",
+  "effect.huanle.frosty.desc": "移動速度を減少させ、氷結効果を引き起こす",
+
+  "item.huanle.evil_blade_sword": "邪悪な刃",
+  "item.huanle.evil_blade_sword.desc": "攻撃時に邪悪効果を発動する可能性があり、対象に追加ダメージを与える",
+
+  "item.huanle.royal_great_sword": "ロイヤルグレートソード",
+  "item.huanle.royal_great_sword.desc": "強力なロイヤルグレートソード",
+
+  "item.huanle.ender_crystal_sword": "エンドクリスタルソード",
+  "item.huanle.ender_crystal_sword.desc": "エンドクリスタルで作られた強力な剣",
+  "item.huanle.ender_crystal_pickaxe": "エンドクリスタルピッケル",
+  "item.huanle.ender_crystal_pickaxe.desc": "エンドクリスタルで作られた強力なピッケル",
+  "item.huanle.ender_crystal_axe": "エンドクリスタル斧",
+  "item.huanle.ender_crystal_axe.desc": "エンドクリスタルで作られた強力な斧",
+  "item.huanle.ender_crystal_shovel": "エンドクリスタルシャベル",
+  "item.huanle.ender_crystal_shovel.desc": "エンドクリスタルで作られた強力なシャベル",
+  "item.huanle.ender_crystal_hoe": "エンドクリスタルホー",
+  "item.huanle.ender_crystal_hoe.desc": "エンドクリスタルで作られた強力なホー",
+
+  "item.huanle.ender_crystal_helmet": "エンドクリスタルヘルメット",
+  "item.huanle.ender_crystal_chestplate": "エンドクリスタルチェストプレート",
+  "item.huanle.ender_crystal_leggings": "エンドクリスタルレギングス",
+  "item.huanle.ender_crystal_boots": "エンドクリスタルブーツ",
+  "item.huanle.ender_crystal_armor.desc": "セットを着用するとエンド抵抗性効果を得る",
+
+  "key.categories.huanle": "Huanleの武器",
+  "key.huanle.mana_display": "マナ表示",
+  "key.huanle.skill_cast": "スキル発動",
+
+  "huanle.mana.display": "マナ: %d/%d",
+  "huanle.mana.insufficient": "マナ不足！%d マナが必要です",
+  "huanle.mana.cost": "マナ消費: %d",
+
+  "item.huanle.emerald_sword": "エメラルドソード",
+  "item.huanle.emerald_sword.desc": "エメラルドで作られた剣",
+  "item.huanle.emerald_pickaxe": "エメラルドピッケル",
+  "item.huanle.emerald_pickaxe.desc": "エメラルドで作られたピッケル",
+  "item.huanle.emerald_axe": "エメラルド斧",
+  "item.huanle.emerald_axe.desc": "エメラルドで作られた斧",
+  "item.huanle.emerald_shovel": "エメラルドシャベル",
+  "item.huanle.emerald_shovel.desc": "エメラルドで作られたシャベル",
+  "item.huanle.emerald_hoe": "エメラルドホー",
+  "item.huanle.emerald_hoe.desc": "エメラルドで作られたホー",
+
+  "item.huanle.emerald_helmet": "エメラルドヘルメット",
+  "item.huanle.emerald_chestplate": "エメラルドチェストプレート",
+  "item.huanle.emerald_leggings": "エメラルドレギングス",
+  "item.huanle.emerald_boots": "エメラルドブーツ",
+  "item.huanle.emerald_armor.desc": "エメラルドで作られた鎧",
+
+  "item.huanle.ender_belt": "エンドベルト",
+  "item.huanle.ender_belt.desc": "装備するとエンド抵抗性効果を得る",
+
+  "curios.identifier.belt": "ベルト",
+  "curios.modifiers.belt": "ベルトスロットに装備時:",
+
+  "entity.huanle.mysterious_trader": "神秘の商人",
+  "item.huanle.mysterious_trader_spawn_egg": "神秘の商人スポーンエッグ",
+
+  "item.huanle.copper_powder": "銅の粉",
+  
+  "item.huanle.magic_sword": "魔法の剣",
+  "item.huanle.magic_sword.desc": "右クリックで氷結攻撃を発動",
+  "item.huanle.magic_sword.mana_cost": "マナ消費: %s",
+  "item.huanle.magic_sword.damage": "魔法ダメージ: %s",
+  "item.huanle.magic_sword.freeze_duration": "氷結効果: 5秒",
+  "item.huanle.magic_sword.range": "攻撃範囲: %sブロック",
+
+  "item.huanle.mana_bottle": "マナボトル",
+  "item.huanle.mana_bottle.tooltip": "右クリックで投げて即座に10マナを回復",
+  "entity.huanle.mana_bottle": "マナボトル",
+  "enchantment.huanle.mana_mastery": "マナマスタリー",
+  "enchantment.huanle.mana_mastery.desc": "魔法武器のマナ消費を軽減、レベル毎に1マナ減少",
+  "entity.huanle.fireball": "ファイアボール",
+
+  "itemGroup.huanle_tools_tab": "歓楽武器：ツール",
+  "itemGroup.huanle_curios_tab": "歓楽武器：キュリオス",
+  "itemGroup.huanle_spawn_eggs_tab": "歓楽武器：スポーンエッグ",
+
+  "item.huanle.dragon_hunter_sword.not_enough_mana": "マナ不足！%s マナが必要です",
+  "item.huanle.void_ash_blade.not_enough_mana": "マナ不足！%s マナが必要です",
+  "item.huanle.sun_god_sword.not_enough_mana": "マナ不足！%s マナが必要です",
+  "item.huanle.earth_sword.not_enough_mana": "マナ不足！%s マナが必要です",
+
+  "gui.huanle.config.title": "Huanle武器設定",
+  "gui.huanle.config.mana_config": "マナバー設定",
+  "gui.huanle.config.back": "戻る",
+  "gui.huanle.mana_config.title": "マナバー設定",
+  "gui.huanle.mana_config.enable_mana_bar": "マナバーを有効にする",
+  "gui.huanle.mana_config.show_mana_text": "マナ値テキストを表示",
+  "gui.huanle.mana_config.display_mode": "表示モード: %s",
+  "gui.huanle.mana_config.display_mode.always": "常に表示",
+  "gui.huanle.mana_config.display_mode.weapon_only": "武器を持っている時のみ表示",
+  "gui.huanle.mana_config.ui_size": "UIサイズ: %s",
+  "gui.huanle.mana_config.ui_size.large": "大",
+  "gui.huanle.mana_config.ui_size.small": "小",
+  "gui.huanle.mana_config.width": "幅:",
+  "gui.huanle.mana_config.height": "高さ:",
+  "gui.huanle.mana_config.text_scale": "テキストスケール:",
+  "gui.huanle.mana_config.drag_position": "ドラッグしてマナバー位置を移動",
+  "gui.huanle.mana_config.reset_position": "位置をリセット",
+  "gui.huanle.mana_config.drag_instruction": "マナバーをクリック&ドラッグして希望の位置に移動",
+  "gui.huanle.mana_config.save": "保存",
+  "gui.huanle.mana_config.cancel": "キャンセル",
+
+  "gui.huanle.grinder.recipe_text": "アイテムを配置して粉砕を開始",
+  "command.huanle.spawn_merchant.success": "神秘の商人がスポーンしました！",
+  "command.huanle.spawn_merchant.player_only": "このコマンドはプレイヤーのみ使用できます！",
+
+  "tooltip.huanle.void_ash_blade.crouch_right_click": "§5しゃがみ + 右クリック: §716ブロック内のクリーチャーを3秒間スタンさせ、10秒間弱体化（クールダウン: 10秒）",
+  "tooltip.huanle.void_ash_blade.hold_right_click": "§5右クリック長押し: §764ブロック内のクリーチャーを継続的に引き寄せる",
+
+  "block.huanle.ender_crystal_block": "エンドクリスタルブロック",
+
+  "item.huanle.void_ash_blade": "虚無の灰 砕けた刃",
+  "advancements.huanle.void_ash_blade.title": "虚無の剣士",
+  "advancements.huanle.void_ash_blade.description": "虚無の灰 砕けた刃を入手する",
+  "item.huanle.void_ash_blade.desc": "攻撃時20%の確率で弱体効果を適用",
+  "effect.huanle.stun": "スタン",
+  "effect.huanle.stun.desc": "移動と攻撃を阻止",
+
+  "item.huanle.sun_god_eye": "太陽神の目",
+  "item.huanle.sun_god_eye.desc": "太陽の力を含む神秘的なアミュレット",
+  "item.huanle.sun_god_eye.desc2": "装備すると防火効果と急速効果を提供",
+  "attribute.name.huanle.max_mana": "最大マナ",
+
+  "key.huanle.open_config": "マナバー設定を開く",
+
+  "item.huanle.sun_god_staff": "太陽神の杖",
+  "advancements.huanle.sun_god_staff.title": "太陽神の使者",
+  "advancements.huanle.sun_god_staff.description": "太陽神の杖を入手する",
+  "item.huanle.sun_god_staff.desc": "右クリックで10マナを消費してファイアボールを発射",
+  "item.huanle.sun_god_staff.desc2": "しゃがみ右クリックで30マナを消費してファイアボールの雨を発動（クールダウン: 30秒）",
+  "item.huanle.sun_god_staff.fireball_rain_cooldown": "ファイアボールの雨クールダウン中、残り%s秒...",
+  "item.huanle.sun_god_staff.not_enough_mana": "マナ不足！%s マナが必要です",
+  "tooltip.huanle.mana_cost": "マナコスト: %d",
+  "message.huanle.insufficient_mana": "マナ不足！",
+
+  "item.huanle.evil_blade_sword.desc": "右クリックでエンドパールを投げる",
+  "item.huanle.evil_blade_sword.desc2": "20%の確率で追加ダメージを与え、弱体バフを適用",
+
+  "item.huanle.royal_greatsword": "ロイヤルグレートソード",
+  "advancements.huanle.royal_greatsword.title": "王室騎士",
+  "advancements.huanle.royal_greatsword.description": "ロイヤルグレートソードを入手する",
+  "tooltip.huanle.royal_greatsword.desc": "強力な攻撃力を持つ威厳あるロイヤルグレートソード",
+
+  "advancements.huanle.evil_blade_sword.title": "邪悪な刃の剣士",
+  "advancements.huanle.evil_blade_sword.description": "邪悪な刃を入手する",
+
+  "curios.modifiers.ring": "リングスロットに装備時:",
+
+  "item.huanle.life_ring": "ライフリング",
+  "item.huanle.life_ring.desc": "継続的な再生効果を付与",
+
+  "huanle.mana_bar.position_info": "現在の位置: Xオフセット=%d, Yオフセット=%d",
+  "huanle.grinder.progress": "進行状況: %d/%d",
+  "huanle.command.mana.get": "%sのマナ: %d/%d",
+  "huanle.command.mana.set": "%sのマナを%dに設定",
+  "huanle.command.mana.add": "%sに%dマナを追加 (%d -> %d)",
+  "huanle.command.mana.setmax": "%sの最大マナを%dに設定",
+
+  "item.huanle.meteorite_ring": "隕石の指輪",
+  "item.huanle.meteorite_ring.desc": "神秘的な指輪",
+  "attribute.name.huanle.looting_level": "略奪レベル",
+  "attribute.name.huanle.fortune_level": "幸運レベル",
+  "attribute.name.huanle.mining_speed": "採掘速度",
+  "attribute.name.huanle.damage_reduction": "ダメージ軽減",
+  
+  "item.huanle.fire_element_ring": "火元素の指輪",
+  "item.huanle.fire_element_ring.desc1": "§c全ての火ダメージに免疫",
+  "item.huanle.fire_element_ring.desc2": "§6攻撃時に火炎効果を追加",
+  "item.huanle.fire_element_ring.desc3": "§a火の中で毎秒1ライフを回復",
+  "item.huanle.earth_element_ring": "土元素の指輪",
+  "item.huanle.earth_element_ring.desc1": "§b+4防御力",
+  "item.huanle.earth_element_ring.desc2": "§6+6防御強度",
+  "item.huanle.earth_element_ring.desc3": "§a+15%ダメージ軽減",
+  "item.huanle.gold_element_ring": "金元素の指輪",
+  "item.huanle.gold_element_ring.desc1": "+20%攻撃ダメージ",
+  "item.huanle.gold_element_ring.desc2": "+10%採掘速度",
+  "item.huanle.gold_element_ring.desc3": "ダメージ後1秒間の無敵時間を獲得",
+  "item.huanle.wood_element_ring": "木元素の指輪",
+  "item.huanle.wood_element_ring.desc1": "§a毒ダメージに免疫",
+  "item.huanle.wood_element_ring.desc2": "§c+20最大ライフ",
+  "item.huanle.wood_element_ring.desc3": "§d攻撃時にライフを吸収する可能性",
+  "item.huanle.water_element_ring": "水元素の指輪",
+  "item.huanle.water_element_ring.desc1": "§b+75%水泳速度",
+  "item.huanle.water_element_ring.desc2": "§a水中での採掘速度が影響されない",
+  "item.huanle.water_element_ring.desc3": "§e+10%移動速度",
+  "item.huanle.water_element_ring.desc4": "§9水中呼吸",
+  "item.huanle.five_element_ring": "五行の指輪",
+  "item.huanle.five_element_ring.desc1": "§e+2攻撃ダメージ",
+  "item.huanle.five_element_ring.desc2": "§a+4最大ライフ",
+  "item.huanle.five_element_ring.desc3": "§b+30%水泳速度",
+  "item.huanle.five_element_ring.desc4": "§b+10%移動速度",
+  "item.huanle.five_element_ring.desc5": "§b水中呼吸",
+  "item.huanle.five_element_ring.desc6": "§c全ての火ダメージに免疫",
+  "item.huanle.five_element_ring.desc7": "§6+2防御力",
+  "item.huanle.five_element_ring.desc8": "§6+1防御強度",
+
+  "item.huanle.blank_rune": "空白のルーン",
+  "item.huanle.ice_rune": "氷のルーン",
+  "item.huanle.earth_rune": "土のルーン",
+  "item.huanle.electric_rune": "雷のルーン",
+  "item.huanle.wind_rune": "風のルーン",
+  "item.huanle.fire_rune": "火のルーン",
+  "item.huanle.life_rune": "生命のルーン",
+  "item.huanle.water_rune": "水のルーン",
+  "item.huanle.crimson_rune": "深紅のルーン",
+  "item.huanle.rune_bag": "ルーンバッグ",
+  "container.huanle.rune_bag": "ルーンバッグ",
+  "tooltip.huanle.life_rune_cost": "生命のルーンを消費: %s",
+
+  "key.huanle.mana_display_toggle": "マナ表示切り替え",
+  "huanle.mana_display.current": "現在のマナ: %s",
+  "huanle.mana_display.max": "最大マナ: %s",
+  "huanle.mana_display.insufficient": "マナ不足！必要: %s, 現在: %s",
+
+  "item.huanle.life_ring": "ライフリング",
+  "item.huanle.life_ring.desc": "継続的な再生効果を付与",
+
+  "curios.identifier.ring": "リング",
+  "curios.modifiers.ring": "リングスロットに装備時:",
+
+  "item.huanle.enchanted_amethyst_apple": "エンチャントされたアメジストリンゴ",
+  "item.huanle.enchanted_amethyst_apple.desc": "§6食べると耐性VI、ダメージ軽減V、再生IIIの効果を得る",
+  "item.huanle.enchanted_ender_crystal_apple": "エンチャントされたエンダークリスタルリンゴ",
+  "item.huanle.enchanted_ender_crystal_apple.desc": "§6食べるとエンダー耐性IIを含む複数の強力な効果を得る",
+  "item.huanle.enchanted_magic_crystal_apple": "エンチャントされたマジッククリスタルリンゴ",
+  "item.huanle.enchanted_magic_crystal_apple.desc": "§6食べるとより高レベルの効果を得る",
+  "item.huanle.abominable_greatsaber": "忌まわしき大剣",
+  "advancements.huanle.abominable_greatsaber.title": "混沌の主",
+  "advancements.huanle.abominable_greatsaber.description": "忌まわしき大剣を入手する"
+}

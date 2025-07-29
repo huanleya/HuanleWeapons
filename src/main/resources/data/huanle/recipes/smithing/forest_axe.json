@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "huanle:forest_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "addition": {
+    "item": "huanle:forest_ingot"
+  },
+  "result": {
+    "item": "huanle:forest_axe"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EE ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "E": {
+      "item": "huanle:ender_crystal"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "huanle:ender_crystal_hoe"
+  }
+}

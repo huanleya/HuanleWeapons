@@ -1,0 +1,35 @@
+{
+  "parent": "huanle:root",
+  "display": {
+    "icon": {
+      "item": "huanle:death_scythe"
+    },
+    "title": {
+      "translate": "advancements.huanle.death_scythe.title"
+    },
+    "description": {
+      "translate": "advancements.huanle.death_scythe.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "death_scythe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["huanle:death_scythe"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "death_scythe"
+    ]
+  ]
+}

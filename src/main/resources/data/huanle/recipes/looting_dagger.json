@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M",
+    "E",
+    "S"
+  ],
+  "key": {
+    "M": {
+      "item": "huanle:magic_crystal"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "huanle:looting_dagger",
+    "count": 1
+  }
+}

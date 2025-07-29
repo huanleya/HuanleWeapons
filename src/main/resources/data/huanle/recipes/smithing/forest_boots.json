@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "huanle:forest_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "result": {
+    "item": "huanle:forest_boots"
+  },
+  "template": {
+    "item": "huanle:forest_smithing_template"
+  }
+}

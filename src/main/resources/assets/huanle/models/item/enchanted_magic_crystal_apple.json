@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "huanle:item/enchanted_magic_crystal_apple"
+  }
+}

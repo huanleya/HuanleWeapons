@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FNW",
+    "NGN",
+    "ONE"
+  ],
+  "key": {
+    "F": {
+      "item": "huanle:fire_element_ring"
+    },
+    "W": {
+      "item": "huanle:water_element_ring"
+    },
+    "E": {
+      "item": "huanle:earth_element_ring"
+    },
+    "O": {
+      "item": "huanle:wood_element_ring"
+    },
+    "G": {
+      "item": "huanle:gold_element_ring"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "huanle:five_element_ring",
+    "count": 1
+  }
+}
